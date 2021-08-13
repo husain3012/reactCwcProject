@@ -1311,8 +1311,8 @@ function GetStarted() {
               </a>
               <p className="wealth-section-description mt-14 m-0">
                 or call us at
-                <a className="sb-blue-link trigger-event" data-category="schedule-call" data-action="call toll free" data-label="home" href="tel:1800-102-1265">
-                  1800-102-1265
+                <a className="sb-blue-link trigger-event" data-category="schedule-call" data-action="call toll free" data-label="home" href="tel:xxxx-xxx-xxxx">
+                  xxxx-xxx-xxxx
                 </a>
               </p>
             </div>

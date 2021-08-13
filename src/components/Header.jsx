@@ -104,7 +104,7 @@ Rest of the world
 </div>
 </div>
 <div className="d-block d-md-none mobile-toll-free-icon">
-<a aria-label="Scripbox Toll Free Contact Number" className="hide-on-fhc mobile-call-me nav-link trigger-event" data-action="Click" data-category="Click-to-call" data-label="Toll Free Top Nav Icon - Mobile" href="tel:1800-102-1265">
+<a aria-label="Scripbox Toll Free Contact Number" className="hide-on-fhc mobile-call-me nav-link trigger-event" data-action="Click" data-category="Click-to-call" data-label="Toll Free Top Nav Icon - Mobile" href="tel:xxxx-xxx-xxxx">
 <svg className="toll-free-sprite">
 <use xlinkHref="https://scripbox.com/assets/svg-sprite/footer-top-nav-svg.svg#footer-call"></use>
 </svg>
@@ -231,11 +231,11 @@ Rest of the world
 <div className="float-md-right d-none d-md-block collapse navbar-collapse"></div>
 <ul className="nav navbar-nav">
 <li className="nav-item d-none d-md-block">
-<a className="call-us-link hide-on-fhc nav-link trigger-event" data-action="Click" data-category="Click-to-call" data-label="Toll Free Top Nav - Desktop" href="tel:1800-102-1265">
+<a className="call-us-link hide-on-fhc nav-link trigger-event" data-action="Click" data-category="Click-to-call" data-label="Toll Free Top Nav - Desktop" href="tel:xxxx-xxx-xxxx">
 <svg className="toll-free-sprite toll-free-sprite-desktop">
 <use xlinkHref="https://scripbox.com/assets/svg-sprite/footer-top-nav-svg.svg#footer-call"></use>
 </svg>
-1800-102-1265
+xxxx-xxx-xxxx
 </a>
 </li>
 <li className="nav-item">
@@ -249,11 +249,11 @@ Rest of the world
 </li>
 <li className="nav-bar-divider"></li>
 <li className="nav-item d-block d-md-none">
-<a className="call-us-link hide-on-fhc mobile-call-me nav-link trigger-event" data-action="Click" data-category="Click-to-call" data-label="Toll Free Top Nav - Mobile" href="tel:1800-102-1265">
+<a className="call-us-link hide-on-fhc mobile-call-me nav-link trigger-event" data-action="Click" data-category="Click-to-call" data-label="Toll Free Top Nav - Mobile" href="tel:xxxx-xxx-xxxx">
 <svg className="toll-free-sprite">
 <use xlinkHref="https://scripbox.com/assets/svg-sprite/footer-top-nav-svg.svg#footer-call"></use>
 </svg>
-1800-102-1265
+xxxx-xxx-xxxx
 </a>
 </li>
 </ul>
