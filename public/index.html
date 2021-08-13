@@ -1,43 +1,527 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <link href='/manifest.json' rel='manifest'>
+    <meta content='Scripbox' name='apple-mobile-web-app-title'>
+    <link href='https://asset10.scripbox.com/assets/apple-touch-icon/apple-touch-icon-57x57-precomposed-4be5dfe52abe4ce9cd3ee12b591fe4282cc170cf3e03a48166c0ed8431576528.png' rel='apple-touch-icon-precomposed'>
+    <link href='https://asset12.scripbox.com/assets/apple-touch-icon/apple-touch-icon-72x72-precomposed-746797f3df187d06b3aa27a3f933ac8be463d63d412a798ff114279c4e62d04b.png' rel='apple-touch-icon-precomposed'>
+    <link href='https://asset11.scripbox.com/assets/apple-touch-icon/apple-touch-icon-114x114-precomposed-52b28ebdceacd629a62940c81f590f5b31d2c5bbd8fc48daa2bcb8e440d62620.png' rel='apple-touch-icon-precomposed'>
+    <link href='https://asset10.scripbox.com/assets/apple-touch-icon/apple-touch-icon-144x144-precomposed-9f90946a45a40562e4c66832c8e88b9b7063dfafb808008f6680ff1b835d8983.png' rel='apple-touch-icon-precomposed'>
+    <link href='https://asset11.scripbox.com/assets/apple-touch-icon/apple-touch-icon-120x120-precomposed-03fdd3f92d584d118dcfe3921e8d4ff438ebbf0228a010d15d6279a9e8c191be.png' rel='apple-touch-icon-precomposed'>
+    <link href='/osd.xml' rel='search' title='Scripbox' type='application/opensearchdescription+xml'>
+    
     <title>React App</title>
-  </head>
+    <link href='https://scripbox.com/' rel='canonical'>
+    <meta content='Scripbox is your one-stop solution for all your financial goals. Start managing your wealth by investing in the top recommended mutual funds and fixed deposits online.' name='description'>
+    <meta content='https://scripbox.com/' property='og:url'>
+    <meta content='website' property='og:type'>
+    <meta content='Scripbox: Invest in Mutual Funds, Fixed Deposit and Financial Planning' property='og:title'>
+    <meta content='Scripbox is your one-stop solution for all your financial goals. Start managing your wealth by investing in the top recommended mutual funds and fixed deposits online.' property='og:description'>
+    <meta content='https://asset11.scripbox.com/assets/invest/wealth-home/home-og-99c8c100d7639f19a9da2e2d32be33a0d291f4407e1f71d21ef575d5625aa803.png' property='og:image'>
+    <meta content='https://asset11.scripbox.com/assets/invest/wealth-home/home-og-99c8c100d7639f19a9da2e2d32be33a0d291f4407e1f71d21ef575d5625aa803.png' property='twitter:image:src'>
+    <meta content='http://facebook.com/scripbox' property='article:publisher'>
+    <meta content='summary' property='twitter:card'>
+    <meta content='Scripbox is your one-stop solution for all your financial goals. Start managing your wealth by investing in the top recommended mutual funds and fixed deposits online.' property='twitter:description'>
+    <meta content='Scripbox: Invest in Mutual Funds, Fixed Deposit and Financial Planning' property='twitter:title'>
+    <meta content='@scripbox' property='twitter:site'>
+    <meta content='scripbox' property='twitter:creator'>
+    <meta content='scripbox.com' property='twitter:domain'>
+    <meta content='Scripbox: Invest in Mutual Funds, Fixed Deposit and Financial Planning' itemprop='name'>
+    <meta content='Scripbox is your one-stop solution for all your financial goals. Start managing your wealth by investing in the top recommended mutual funds and fixed deposits online.' itemprop='description'>
+    <meta content='https://asset11.scripbox.com/assets/invest/wealth-home/home-og-99c8c100d7639f19a9da2e2d32be33a0d291f4407e1f71d21ef575d5625aa803.png' itemprop='image'>
+    
+    <meta content='Best Way to Invest Money in India, Invest in Mutual Funds Online, Mutual Funds Investment, Online Investment, Intelligent Investment Platform, Top Mutual Funds 2021' name='keywords'>
+    
+    
+    
+    
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://scripbox.com/#website",
+            "name": "Scripbox",
+            "url": "https://scripbox.com/",
+            "publisher": {
+              "@id": "http://data.scripbox.com/scripbox/entity/scripbox"
+            },
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://scripbox.com/blog?utf8=%E2%9C%93&q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@id": "http://data.scripbox.com/scripbox/entity/scripbox",
+            "@type": "Organization",
+            "name": "Scripbox",
+            "description": "Scripbox is your one-stop solution for all your financial goals. Invest in the best mutual funds with India's most trusted & top online investment service.",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://scripbox.com/mf/wp-content/uploads/2020/02/Scripbox-600x60-logo--publisher-logo.png",
+              "width": 600,
+              "height": 60
+            },
+            "image": [
+              {
+                "@type": "ImageObject",
+                "url": "https://scripbox.com/mf/wp-content/uploads/2020/02/Scripbox-600x60-logo.png",
+                "width": 600,
+                "height": 60
+              }
+            ],
+            "legalName": "Scripbox",
+            "founder": [
+              {
+                "@id": "http://data.scripbox.com/scripbox/entity/ashok_kumar"
+              },
+              {
+                "@id": "http://data.scripbox.com/scripbox/entity/sanjiv_singhal"
+              }
+            ],
+            "foundingDate": "2012",
+            "foundingLocation": "Bengaluru, India",
+            "email": "help@scripbox.com",
+            "telephone": "1800-102-1265",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "ARN",
+              "value": "ARN-84967"
+            },
+            "sameAs": [
+              "https://g.co/kgs/AjTgFw",
+              "http://www.wikidata.org/entity/Q55632737",
+              "http://dbpedia.org/resource/Scripbox",
+              "https://en.wikipedia.org/wiki/Scripbox",
+              "http://www.facebook.com/scripbox",
+              "http://instagram.com/scripbox_india",
+              "https://www.linkedin.com/company/scripbox/",
+              "https://www.twitter.com/scripbox",
+              "https://www.youtube.com/user/scripbox"
+            ],
+            "url": "https://scripbox.com/",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Indiqube @ The Leela Galleria 3rd Floor, No. 23, Old Airport Road",
+              "postalCode": "560008",
+              "addressLocality": "Bengaluru",
+              "addressRegion": "Karnataka",
+              "addressCountry": "IN"
+            },
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "1800-102-1265",
+                "contactType": "Customer Service",
+                "contactOption": "TollFree",
+                "areaServed": ["http://www.wikidata.org/entity/Q668", "India", "IN"]
+              },
+              {
+                "@type": "ContactPoint",
+                "telephone": "+91-92432-00042",
+                "contactType": "Customer Service",
+                "areaServed": ["World", "http://www.wikidata.org/entity/Q16502"]
+              }
+            ]
+          },
+          {
+            "@id": "http://data.scripbox.com/scripbox/entity/sanjiv_singhal",
+            "@type": "Person",
+            "description": "Founder & Chief Operating Officer, Sanjiv sets the vision for Scripbox. He is focused on making the Scripbox experience for customers simple and delightful. Sanjiv has worked at the intersection of finance and technology for over 20 years - in leadership positions at financial institutions such as Kotak Mahindra, ABN AMRO and Citigroup and at...",
+            "mainEntityOfPage": "https://scripbox.com/mf/data/sanjiv-singhal/",
+            "image": [
+              {
+                "@type": "ImageObject",
+                "url": "https://scripbox.com/mf/wp-content/uploads/2020/07/sanjiv-921fd3800d6a5646e683612e5660645339c537d01acce02e26e87d1527b3d2cd.jpg",
+                "width": 345,
+                "height": 280
+              }
+            ],
+            "name": "Sanjiv Singhal",
+            "knows": [
+              { "@id": "http://data.scripbox.com/scripbox/entity/manu_prasad" },
+              { "@id": "http://data.scripbox.com/scripbox/entity/atul_singhal" },
+              { "@id": "http://data.scripbox.com/scripbox/entity/ashok_kumar" }
+            ],
+            "sameAs": [
+              "https://g.co/kgs/fBTVQq",
+              "https://in.linkedin.com/in/sanjivsinghal"
+            ]
+          },
+          {
+            "@id": "http://data.scripbox.com/scripbox/entity/sanjiv_singhal",
+            "@type": "Person",
+            "description": "Founder & Chief Operating Officer, Sanjiv sets the vision for Scripbox. He is focused on making the Scripbox experience for customers simple and delightful. Sanjiv has worked at the intersection of finance and technology for over 20 years - in leadership positions at financial institutions such as Kotak Mahindra, ABN AMRO and Citigroup and at...",
+            "mainEntityOfPage": "https://scripbox.com/mf/data/sanjiv-singhal/",
+            "image": [
+              {
+                "@type": "ImageObject",
+                "url": "https://scripbox.com/mf/wp-content/uploads/2020/07/sanjiv-921fd3800d6a5646e683612e5660645339c537d01acce02e26e87d1527b3d2cd.jpg",
+                "width": 345,
+                "height": 280
+              }
+            ],
+            "name": "Sanjiv Singhal",
+            "knows": [
+              { "@id": "http://data.scripbox.com/scripbox/entity/manu_prasad" },
+              { "@id": "http://data.scripbox.com/scripbox/entity/atul_singhal" },
+              { "@id": "http://data.scripbox.com/scripbox/entity/ashok_kumar" }
+            ],
+            "sameAs": [
+              "https://g.co/kgs/fBTVQq",
+              "https://in.linkedin.com/in/sanjivsinghal"
+            ]
+          },
+          {
+            "@id": "http://data.scripbox.com/scripbox/entity/ashok_kumar",
+            "@type": "Person",
+            "description": "Ashok rallies himself & the entire organisation towards making Scripbox's customers dream come true by making its offerings simple, jargon-free & investor-friendly. Ashok brings 20 years of a strong track record of building high growth businesses that are customer-obsessed. He has held various leadership positions at IT, Telecom & Hitech companies such as Wipro, Intel,...",
+            "mainEntityOfPage": "https://scripbox.com/mf/data/ashok-kumar/",
+            "image": [
+              {
+                "@type": "ImageObject",
+                "url": "https://scripbox.com/mf/wp-content/uploads/2020/07/Ashok-Kumar-E-R_1551776887-1200x675.jpg",
+                "width": 1200,
+                "height": 675
+              },
+              {
+                "@type": "ImageObject",
+                "url": "https://scripbox.com/mf/wp-content/uploads/2020/07/Ashok-Kumar-E-R_1551776887-1200x900.jpg",
+                "width": 1200,
+                "height": 900
+              },
+              {
+                "@type": "ImageObject",
+                "url": "https://scripbox.com/mf/wp-content/uploads/2020/07/Ashok-Kumar-E-R_1551776887-1200x1200.jpg",
+                "width": 1200,
+                "height": 1200
+              },
+              {
+                "@type": "ImageObject",
+                "url": "https://scripbox.com/mf/wp-content/uploads/2020/07/Ashok-Kumar-E-R_1551776887.jpg",
+                "width": 1491,
+                "height": 1329
+              }
+            ],
+            "name": "Ashok Kumar",
+            "knows": [
+              { "@id": "http://data.scripbox.com/scripbox/entity/manu_prasad" },
+              { "@id": "http://data.scripbox.com/scripbox/entity/atul_singhal" },
+              { "@id": "http://data.scripbox.com/scripbox/entity/sanjiv_singhal" }
+            ],
+            "sameAs": "https://www.linkedin.com/in/erashok/"
+          }
+        ]
+        }
+      </script>
+      
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "VideoObject",
+            "name": "Early Retirement Planning India | Prasad Ethireddy | Scripbox customer",
+            "description": "Whether it is upgrading your lifestyle, living your dream, planning for your early retirement, or simply making life richer - Scripbox is here to help. For every life goal, we have a plan to get you there. Watch this video to see how Scripbox helped Prasad Ethireddy to plan and invest for early retirement. For more information on Mutual funds for retirement and retirement planning in India, subscribe, and stay tuned to Scripbox.   #Scripbox #MutualFundsInvestment  #RetirementPlans #CustomerTestimonial  Disclaimer: Mutual Fund investments are subject to market risks. Please read all scheme related documents carefully before investing. Past performance is not an indicator of future returns.  About Us: Trusted with over Rs 1500+ Crores AUM, Scripbox is a wealth management platform that helps you achieve all your financial goals. We simplify mutual fund investments by following a scientific investment process. Subscribe to our channel for insights on everything related to investing – equity mutual funds, debt funds, liquid funds, ELSS funds, index funds, Systematic Transfer Plan, retirement plan, child education plan, and other investment options.  Subscribe to the Scripbox YouTube channel for more finance-related content: https://www.youtube.com/user/scripbox?sub_confirmation=1  Connect with us on Facebook: https://www.facebook.com/scripbox  Follow us on Twitter: https://twitter.com/scripbox  Download the Scripbox App:  Find us on the Google Play Store: https://play.google.com/store/apps/details?id=com.scripbox.takecharge&hl=en  Find us on the Apple App store: https://apps.apple.com/us/app/scripbox-top-mutual-funds-app/id1137375075",
+            "thumbnailUrl": "https://i.ytimg.com/vi/uZuGOafkzYA/hqdefault.jpg",
+            "duration": "PT2M1S",
+            "url": "https://www.youtube.com/watch?v=uZuGOafkzYA",
+            "embedUrl": "https://www.youtube.com/embed/uZuGOafkzYA",
+            "uploadDate": "2019-08-13"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "VideoObject",
+            "name": "How uncertainity can become an investment opportunity | Srinivasan Soundararajan| Scripbox customer",
+            "description": "With CoVid-19 and the current market volatilities, are you worried about your long-term investment goals getting affected? Let Srinivasan Soundararajan’s experience tell you how Scripbox’s guidance eased his investment woes, with solutions tailored to his long-term goals. The next thing on your to-do list: get inspired! All you need is a long-term view of your investments with Scripbox. Watch this video to see how the right mutual fund investment strategies can help you tackle market volatility.  For more information on how to invest during the pandemic and mutual funds for long term investment, subscribe, and stay tuned to Scripbox.   #Scripbox #MutualFundsInvestment  #longterminvestment #CustomerTestimonial  Disclaimer: Mutual Fund investments are subject to market risks. Please read all scheme related documents carefully before investing. Past performance is not an indicator of future returns.  About Us: Trusted with over Rs 1500+ Crores AUM, Scripbox is a wealth management platform that helps you achieve all your financial goals. We simplify mutual fund investments by following a scientific investment process. Subscribe to our channel for insights on everything related to investing – equity mutual funds, debt funds, liquid funds, ELSS funds, index funds, Systematic Transfer Plan, retirement plan, child education plan, and other investment options.  Subscribe to the Scripbox YouTube channel for more finance-related content: https://www.youtube.com/user/scripbox?sub_confirmation=1  Connect with us on Facebook: https://www.facebook.com/scripbox  Follow us on Twitter: https://twitter.com/scripbox  Download the Scripbox App:  Find us on the Google Play Store: https://play.google.com/store/apps/details?id=com.scripbox.takecharge&hl=en  Find us on the Apple App store: https://apps.apple.com/us/app/scripbox-top-mutual-funds-app/id1137375075",
+            "thumbnailUrl": "https://i.ytimg.com/vi/P9tkiuVINbk/hqdefault.jpg",
+            "duration": "PT1M29S",
+            "url": "https://www.youtube.com/watch?v=P9tkiuVINbk",
+            "embedUrl": "https://www.youtube.com/embed/P9tkiuVINbk",
+            "uploadDate": "2020-06-23"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "VideoObject",
+            "name": "Building a richer life with Scripbox l Chitra Iyengar | Scripbox customer",
+            "description": "Whether it is upgrading your lifestyle, living your dream, planning for your early retirement, or simply making life richer - Scripbox is here to help. For every life goal, we have a plan to get you there. Watch this video to see how Scripbox helped Chitra Iyengar to plan for her financial goals.  For more information on mutual fund investments and financial planning, subscribe, and stay tuned to Scripbox.   #Scripbox #MutualFundsInvestment  #FinancialPlanning #CustomerTestimonial  Disclaimer: Mutual Fund investments are subject to market risks. Please read all scheme related documents carefully before investing. Past performance is not an indicator of future returns.  About Us: Trusted with over Rs 1500+ Crores AUM, Scripbox is a wealth management platform that helps you achieve all your financial goals. We simplify mutual fund investments by following a scientific investment process. Subscribe to our channel for insights on everything related to investing – equity mutual funds, debt funds, liquid funds, ELSS funds, index funds, Systematic Transfer Plan, retirement plan, child education plan, and other investment options.  Subscribe to the Scripbox YouTube channel for more finance-related content: https://www.youtube.com/user/scripbox?sub_confirmation=1  Connect with us on Facebook: https://www.facebook.com/scripbox  Follow us on Twitter: https://twitter.com/scripbox  Download the Scripbox App:  Find us on the Google Play Store: https://play.google.com/store/apps/details?id=com.scripbox.takecharge&hl=en  Find us on the Apple App store: https://apps.apple.com/us/app/scripbox-top-mutual-funds-app/id1137375075",
+            "thumbnailUrl": "https://i.ytimg.com/vi/kRUHlqcpm1Y/hqdefault.jpg",
+            "duration": "PT1M17S",
+            "url": "https://www.youtube.com/watch?v=kRUHlqcpm1Y",
+            "embedUrl": "https://www.youtube.com/embed/kRUHlqcpm1Y",
+            "uploadDate": "2019-08-13"
+          }
+        }
+      ]
+    }
+    </script>
+    
+    
+    
+    <link href='//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' nonce='A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs=' rel='stylesheet'>
+    <link rel="stylesheet" media="screen" href="css/style.css" />
+    <link rel="stylesheet" media="screen" href="css/footer.css" />
+    
+    <link href='//fonts.gstatic.com' rel='dns-prefetch'>
+    <link crossorigin='anonymous' href='//fonts.gstatic.com' rel='preconnect'>
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400,400i,700&amp;display=swap' rel='stylesheet'>
+    
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com/" >
+    
+    <script type='text/javascript' nonce='A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs='>
+      (function(d) {
+        var o = d.createElement;
+        d.createElement = function() {
+          var e = o.apply(d, arguments);
+          if (e.tagName === 'SCRIPT') {
+            e.setAttribute('nonce', 'A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs=');
+          }
+          return e;
+        }
+      })(document);
+    </script>
+        <!-- Google Tag Manager -->
+        <script type='text/javascript' nonce='A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs='>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.defer=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-M3B2X4');</script>
+        <!-- End Google Tag Manager -->
+    
+    <!--[if lt IE 9]>
+    <script src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js'></script>
+    <script src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js'></script>
+    <![endif]-->
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta name="csrf-token" content="GI7dhMXbBFudQBFHA39dAnJsD+nYojX3qPQLYsC1tpv42yDda91q6IF6l6pP8qVQQCiNMcyjATAsHag1b3z+vw==" />
+    </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M3B2X4"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <script src="https://asset10.scripbox.com/assets/home-page-79b20a332c1b9fca4e3aaa2e71778e92b48709abc6cdfe9e1aeb1d1ba44a6339.js" nonce="A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs="></script>
+<script nonce='A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs=' src='//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'></script>
+<script src="https://asset13.scripbox.com/assets/lodash.min-5f593f010601437079fa34b92c7efa9b6b2a5efaf13b9477c4abc93034a195c9.js" nonce="A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs="></script>
+<script src="https://asset13.scripbox.com/assets/moment.min-53feb5c688efe0043f7fe416f5d1d21296e041c4339445103eaf23c3ad481c8b.js" nonce="A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs="></script>
+<script src="https://asset13.scripbox.com/assets/moment-tz.min-93cfa4055700bad2259c7aa5fcb3bee7a16b5c4aaca5c12c67dea1f04438b242.js" nonce="A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs="></script>
+<script nonce='A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs=' type='text/javascript'>
+function getCookieValue(cname) {
+  var name = ''+cname+'=';
+  var ca = document.cookie.split(';');
+  for(var i = 0; i < ca.length; i = i + 1) {
+    var c = ca[i];
+    while (c.charAt(0) === ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) === 0) {
+      return unescape(c.substring(name.length, c.length));
+    }
+  }
+  return null;
+}
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+function getUserData(options) {
+  var instruction_draft = options.instruction_draft;
+  var offering_draft = options.offering_draft;
+  var signup_data = options.signup_data;
+  var user_properties = options.user_properties;
+  if (
+    (instruction_draft && instruction_draft.offering) ||
+    (signup_data && (signup_data.version || signup_data.referred_by)) ||
+    (user_properties && (user_properties.age || user_properties.is_married || user_properties.have_children)) ||
+    offering_draft
+  ) {
+    var investment_cookie_expiry = new Date();
+    investment_cookie_expiry.setTime(investment_cookie_expiry.getTime()+(1*2*30*60*1000));
+    // var user_data = JSON.parse(getCookieValue('user_data')) || { data: [] };
+    var userData = JSON.parse(sessionStorage.getItem('user_data'));
+    var user_data = !_.isEmpty(userData) ? userData : { data: [] };
+    if (instruction_draft && instruction_draft.offering) {
+      user_data.data.push(jQuery.extend({schema_version: '1', type: 'instruction_draft'}, {data: instruction_draft}));
+    }
+    if (offering_draft) {
+      var offeringTemplate = _.findKey(offering_draft);
+      var existingDraft = _.findIndex(user_data.data, function(draft) {
+        return draft.data && draft.data[offeringTemplate];
+      });
+      if (existingDraft < 0) {
+        user_data.data.push(jQuery.extend({schema_version: '1', type: 'offering_draft'}, {data: offering_draft}));
+      } else {
+        _.map(user_data.data, function(draft) {
+          if (draft.data && !_.isEmpty(draft.data[offeringTemplate])) {
+            draft.data = offering_draft;
+          }
+          return draft;
+        });
+      }
+    }
+    if (signup_data && (signup_data.version || signup_data.referred_by)) {
+      user_data.data.push(jQuery.extend({schema_version: '1', type: 'signup_data'}, {data: signup_data}));
+    }
+    if (user_properties && (user_properties.age || user_properties.is_married || user_properties.have_children)) {
+      user_data.data.push(jQuery.extend({schema_version: '1', type: 'user_properties'}, {data: user_properties}));
+    }
+    return user_data;
+  }
+}
+
+window.getUserData = getUserData;
+
+function setCookieValue(cname, cvalue, exminutes, domain) {
+  var d = new Date();
+  d.setTime(d.getTime() + (1 * 1 * exminutes * 60 * 1000));
+  var expires = 'expires=' + d.toUTCString();
+  document.cookie = cname + '=' + escape(cvalue) + ';' + expires + ';domain=' + domain + ';path=/';
+}
+
+$(document).on('click', '.trigger-signup-data', function(e) {
+  if ($(this).attr('href')) {
+    e.preventDefault();
+  }
+  var instruction_draft = $(this).data('instruction_draft') || $(this).data('instruction-draft');
+  var offering_draft = $(this).data('offering_draft') || $(this).data('offering-draft');
+  var signup_data = $(this).data('signup_data') || $(this).data('signup-data');
+  var user_properties = $(this).data('user_properties') || $(this).data('user-properties');
+  var data = getUserData({ instruction_draft: instruction_draft, signup_data: signup_data, offering_draft: offering_draft, user_properties: user_properties });
+  if (typeof data !== 'undefined') {
+    data.updatedAt = moment().tz('Asia/Kolkata').format('YYYY-MM-DD');
+    sessionStorage.setItem('user_data', JSON.stringify(data || null));
+  }
+  if ($(this).attr('href')) {
+    // no special case for app webview when navigating within webviews
+    // unless activate plan button is clicked
+    if (window.appSession && (
+      $(this).attr('href').indexOf('#') !== 0 ||
+      $(this).hasClass('activate-plan')
+    )) {
+      e.stopImmediatePropagation();
+      e.stopPropagation();
+      e.preventDefault();
+      var plan_offering = window.app_offering_template;
+      // get data from window.goalPlanCalculator if we don't already have it
+      if (!data) {
+        if (window.goalPlanCalculator) {
+          window.goalPlanCalculator.setSharePlan(true);
+          var offeringDraft = {};
+          offeringDraft[plan_offering] = window.goalPlanCalculator.getOfferingDraft();
+          $(this).data('offering_draft', offeringDraft);
+        }
+        var planData = $(this).data();
+        var data = getUserData({
+          instruction_draft: planData.instruction_draft,
+          offering_draft: planData.offering_draft,
+          signup_data: planData.signup_data,
+          user_properties: planData.user_properties
+        });
+      }
+
+      var type = $(this).hasClass('activate-plan') ?
+        'CONFIRM_PLAN' : 'SAVE_AND_EMAIL_PLAN';
+
+      window.sendMessageToApp({ draft: data || {}, type: type });
+      return;
+    } else {
+      window.location = $(this).attr('href');
+    }
+  }
+});
+
+$('.talk-plan').on('click', function(e) {
+  if (!window.appSession) {
+    window.location.href = $(this).attr('href');
+  } else {
+    var plan_offering = window.app_offering_template;
+    e.stopImmediatePropagation();
+    e.stopPropagation();
+    e.preventDefault();
+    if (window.goalPlanCalculator) {
+      window.goalPlanCalculator.setSharePlan(true);
+      var offeringDraft = {};
+      offeringDraft[plan_offering] = window.goalPlanCalculator.getOfferingDraft();
+      $(this).data('offering_draft', offeringDraft);
+    }
+    var planData = $(this).data();
+    var data = getUserData({
+      instruction_draft: planData.instruction_draft,
+      offering_draft: planData.offering_draft,
+      signup_data: planData.signup_data,
+      user_properties: planData.user_properties,
+    });
+    var href = $(this).attr('href');
+    window.sendMessageToApp({ type: 'TALK_TO_US_SAVE_DATA', draft: data }, { callback: function() {
+      window.location.href = href;
+    }});
+  }
+});
+$('.trigger-deeplink-data').on( 'click', function(e) {
+  let data = $(this).data();
+  if (window.appSession && data && data.deeplink) {
+    e.stopImmediatePropagation();
+    e.stopPropagation();
+    e.preventDefault();
+    window.sendMessageToApp({ deeplink: data.deeplink});
+  }
+});
+</script>
+
+<script nonce='A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs=' type='text/javascript'>
+$(document).on('click','.sb-video-poster-js',function(ev) {
+  ev.preventDefault();
+  var $poster = $(this);
+  var $wrapper = $poster.closest('.sb-video-wrapper-js');
+  videoPlay($wrapper);
+});
+
+function videoPlay($wrapper) {
+  var $iframe = $wrapper.find('.sb-video-iframe-js');
+  var src = $iframe.data('src');
+  $wrapper.addClass('sb-video-wrapper-active');
+  $iframe.attr('src',src);
+}
+$('#wealth-video-testimonial').on('show.bs.modal', function(event) {
+  $('#sb-wealth-testimonial').carousel('pause');
+  var testimonialModal = $(event.relatedTarget);
+  var videoLink = testimonialModal.data('video');
+  $('.wealth-modal-video-js').attr('src', videoLink + '?controls=0&autoplay=1');
+});
+
+$('#wealth-video-testimonial').on('hide.bs.modal', function() {
+  $('.wealth-modal-video-js').attr('src', '');
+  $('#sb-wealth-testimonial').carousel('cycle');
+});
+</script>
+<script src="https://asset13.scripbox.com/assets/campaigns/top_nav-2c4425e1af0b81cb702f77adfc780669aa71e3f696f0338928113a0fb544c4ab.js" nonce="A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs="></script>
+<script src="https://asset11.scripbox.com/assets/welcome/header_animated_text-559696c02abba4336ff9770b9ddfc7bccae5259711c1e30b463121ed73bf0a89.js" nonce="A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs="></script>
+<script src="https://asset13.scripbox.com/assets/welcome/scripbox_feature_carousel-9e517685fb482fe75345168d82c9f86fd5d40db6f55eae483a24cb08dffe98cf.js" nonce="A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs="></script>
+<script src="https://asset10.scripbox.com/assets/welcome/home_blog_section-b8a659552ac1578c329941e48487d685cc024de034503f2f4f73ce9e64d6d8e0.js" nonce="A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs="></script>
+
+<script nonce='A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs=' type='text/javascript'>
+var SB = SB || {};
+SB.ANUGU_API_URL = "https://anugu-xeaipw6sqtfv.scripbox.com/api/nudge";
+
+
+</script>
+<script nonce='A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs=' type='text/javascript'>
+SB.app_id = "web";
+</script>
+
   </body>
 </html>
