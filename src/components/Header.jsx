@@ -6,7 +6,7 @@ function Header() {
     <nav className="navbar-expand-md navbar-nav top-nav-alignment top-navbar">
 <div className="d-md-none">
 <a className="navbar-brand" href="#">
-{/* <img alt="Scripbox Logo" className="sbSvgFallback img-fluid" src="/assets/brandname.png" /> */}
+{/* <img alt=" brandname Logo" className="sbSvgFallback img-fluid" src="/assets/brandname.png" /> */}
 <h1 class="brand">Brandname</h1>
 </a>
 <div className="d-inline logo-country-separator"></div>
@@ -105,7 +105,7 @@ Rest of the world
 </div>
 </div>
 <div className="d-block d-md-none mobile-toll-free-icon">
-<a aria-label="Scripbox Toll Free Contact Number" className="hide-on-fhc mobile-call-me nav-link trigger-event" data-action="Click" data-category="Click-to-call" data-label="Toll Free Top Nav Icon - Mobile" href="tel:xxxx-xxx-xxxx">
+<a aria-label=" brandname Toll Free Contact Number" className="hide-on-fhc mobile-call-me nav-link trigger-event" data-action="Click" data-category="Click-to-call" data-label="Toll Free Top Nav Icon - Mobile" href="tel:xxxx-xxx-xxxx">
 <svg className="toll-free-sprite">
 <use xlinkHref="https://scripbox.com/assets/svg-sprite/footer-top-nav-svg.svg#footer-call"></use>
 </svg>
@@ -119,7 +119,7 @@ Rest of the world
 <div className="container">
 <div className="navbar-collapse collapse" id="topnavbar">
 <a className="navbar-brand d-none d-md-block" href="#">
-{/* <img alt="Scripbox Logo" className="sbSvgFallback img-fluid"  src="/assets/brandname.png" /> */}
+{/* <img alt=" brandname Logo" className="sbSvgFallback img-fluid"  src="/assets/brandname.png" /> */}
 <h1 class="brand">Brandname</h1>
 
 </a>

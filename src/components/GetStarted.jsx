@@ -17,7 +17,7 @@ function GetStarted() {
                 Backed by good people.
               </h2>
               <div className="science-app-image">
-                <img className="img-fluid" alt="Scripbox - Mobile app dashboard " src="https://asset11.scripbox.com/assets/invest/wealth-home/science-app-dashboard-fc6b256de85780a57aa557b5c8a027a8f6165c333f1d28a93dba24c1af85d818.png" />
+                <img className="img-fluid" alt=" brandname - Mobile app dashboard " src="https://asset11.scripbox.com/assets/invest/wealth-home/science-app-dashboard-fc6b256de85780a57aa557b5c8a027a8f6165c333f1d28a93dba24c1af85d818.png" />
               </div>
             </div>
             <div className="col-12 col-md-6">
@@ -307,7 +307,7 @@ function GetStarted() {
                         <div className="offering-color-block" style={{ background: "rgba(74,151,60,1)" }}></div>
                       </div>
                       <div className="d-flex flex-column px-16">
-                        <p className="offering-title">Scripbox Emergency Fund</p>
+                        <p className="offering-title"> brandname Emergency Fund</p>
                         <p className="offering-description text-black m-0">Stay prepared with liquid funds; better growth than savings accounts</p>
                       </div>
                     </div>
@@ -813,7 +813,7 @@ function GetStarted() {
                               <use xlinkHref="https://scripbox.com/assets/svg-sprite/home-plan-svg.svg#home-emergency-money"></use>
                             </svg>
                           </div>
-                          <p className="offering-title px-6 ma-0 w-100">Scripbox Emergency Fund</p>
+                          <p className="offering-title px-6 ma-0 w-100"> brandname Emergency Fund</p>
                           <div className="arrow-down flex-shrink-1 px-12">
                             <svg className="home-svg-sprite" height="40px" width="40px">
                               <use xlinkHref="https://scripbox.com/assets/svg-sprite/home-plan-svg.svg#faq-expand-more"></use>
@@ -1215,7 +1215,7 @@ function GetStarted() {
             <div className="col-md-3 card scripbox-feature-card" style={{ background: "#F7FAF5" }}>
               <div className="card-body p-0">
                 <div className="feature-content-section">
-                  <p className="feature-title">Scripbox Smart Withdraw™</p>
+                  <p className="feature-title"> brandname Smart Withdraw™</p>
                   <p className="wealth-section-description text-black">Reduce your exit loads and capital gain taxes when you withdraw.</p>
                 </div>
               </div>
@@ -1229,7 +1229,7 @@ function GetStarted() {
             <div className="col-md-3 card scripbox-feature-card" style={{ background: "#F2F8FF" }}>
               <div className="card-body p-0">
                 <div className="feature-content-section">
-                  <p className="feature-title">Scripbox Annual Rebalance™</p>
+                  <p className="feature-title"> brandname Annual Rebalance™</p>
                   <p className="wealth-section-description text-black">Because even the best investment strategies need reviews and course corrections.</p>
                 </div>
               </div>
@@ -1243,7 +1243,7 @@ function GetStarted() {
             <div className="col-md-3 card scripbox-feature-card" style={{ background: "#FFFBF2" }}>
               <div className="card-body p-0">
                 <div className="feature-content-section">
-                  <p className="feature-title">Scripbox Portfolio Scan™</p>
+                  <p className="feature-title"> brandname Portfolio Scan™</p>
                   <p className="wealth-section-description text-black">Supercharge your investments with personalised portfolio recommendations, thrice a year.</p>
                 </div>
               </div>
@@ -1354,7 +1354,7 @@ tenetur error, harum nesciunt ips</p>
                         >
                           <img
                             className="img-fluid"
-                            alt="Scripbox customer Prasad Ethireddy"
+                            alt=" brandname customer Prasad Ethireddy"
                             src="https://source.unsplash.com/featured/?person"
                           />
                         </div>
@@ -1389,7 +1389,7 @@ recusandae alias error harum maxime adipisci amet laborum. P</p>
                         >
                           <img
                             className="img-fluid"
-                            alt="Scripbox customer Srinivasan Soundararajan"
+                            alt=" brandname customer Srinivasan Soundararajan"
                             src="https://source.unsplash.com/featured/?man"
                           />
                         </div>
@@ -1424,7 +1424,7 @@ congue in, placerat vel, adipiscing in, dui. Mauris b</p>
                         >
                           <img
                             className="img-fluid"
-                            alt="Scripbox customer Chitra Iyengar"
+                            alt=" brandname customer Chitra Iyengar"
                             src="https://source.unsplash.com/featured/?woman"
                           />
                         </div>
@@ -1771,7 +1771,7 @@ congue in, placerat vel, adipiscing in, dui. Mauris b</p>
         <div className="container">
           <div className="row d-flex">
             <div className="col-12 col-md-6">
-              <img className="img-fluid" alt="Scripbox mobile app showcase" src="https://asset10.scripbox.com/assets/invest/wealth-home/app-showcase-d51085300ad175b83825568b0d131c22181e26ac0741f605017d8c6aa9217a2c.png" />
+              <img className="img-fluid" alt=" brandname mobile app showcase" src="https://asset10.scripbox.com/assets/invest/wealth-home/app-showcase-d51085300ad175b83825568b0d131c22181e26ac0741f605017d8c6aa9217a2c.png" />
             </div>
             <div className="col-12 col-md-6 align-self-center">
               <h2 className="h2-wealth-title">
