@@ -5,8 +5,9 @@ function Header() {
   return (
     <nav className="navbar-expand-md navbar-nav top-nav-alignment top-navbar">
 <div className="d-md-none">
-<a className="navbar-brand" href="https://scripbox.com/">
-<img alt="Scripbox Logo" className="sbSvgFallback img-fluid" src="/assets/brandname.png" />
+<a className="navbar-brand" href="#">
+{/* <img alt="Scripbox Logo" className="sbSvgFallback img-fluid" src="/assets/brandname.png" /> */}
+<h1 class="brand">Brandname</h1>
 </a>
 <div className="d-inline logo-country-separator"></div>
 <div className="d-inline" id="country-switcher-mobile">
@@ -117,8 +118,10 @@ Rest of the world
 </button>
 <div className="container">
 <div className="navbar-collapse collapse" id="topnavbar">
-<a className="navbar-brand d-none d-md-block" href="https://scripbox.com/">
-<img alt="Scripbox Logo" className="sbSvgFallback img-fluid"  src="/assets/brandname.png" />
+<a className="navbar-brand d-none d-md-block" href="#">
+{/* <img alt="Scripbox Logo" className="sbSvgFallback img-fluid"  src="/assets/brandname.png" /> */}
+<h1 class="brand">Brandname</h1>
+
 </a>
 <div className="logo-country-separator"></div>
 <div className="" id="country-switcher-desktop">

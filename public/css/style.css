@@ -473,6 +473,15 @@
   float:right;
   }
   }
+  .navbar-brand .brand{
+    color: #FF6B6B;
+    font-weight: 900;
+  }
+  .navbar-brand .brand:hover{
+    color: #FF6B6B;
+    font-weight: 900;
+
+  }
   
   @media only screen and (max-width: 992px) {
   .dashboard .dashboard-cta-background {
@@ -13995,8 +14004,8 @@
   }
   
   #scripbox-wealth-home .wealth-home-header {
-  background:url(https://asset11.scripbox.com/assets/invest/wealth-home/wealth-home-header-bdf57f19cf541a28acc83acebd3b2e4e219f8d7a3588d30c96094cd27462929b.png) no-repeat;
-  background-position:center;
+    background:url(https://source.unsplash.com/featured/?pink) no-repeat;
+    background-position:center;
   background-size:cover;
   height:360px;
   }
@@ -14390,8 +14399,8 @@
   }
   
   #scripbox-wealth-home .wealth-header-image {
-  background:url(//asset11.scripbox.com/assets/invest/wealth-home/wealth-home-header-bdf57f19cf541a28acc83acebd3b2e4e219f8d7a3588d30c96094cd27462929b.png) no-repeat;
-  background-position:top;
+    background:url(https://source.unsplash.com/featured/?pink) no-repeat;
+    background-position:top;
   background-size:cover;
   height:360px;
   }
@@ -15016,6 +15025,8 @@
   .navbar-brand {
   margin-left:20px;
   }
+ 
+  
   
   .top-navbar .nav .nav-link {
   margin-left:auto;

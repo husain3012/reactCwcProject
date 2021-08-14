@@ -1782,7 +1782,7 @@ congue in, placerat vel, adipiscing in, dui. Mauris b</p>
                 </span>
               </h2>
               <div className="wealth-section-description my-26">
-                Or rather, with eCAS. The Scripbox Portfolio Audit will analyse your existing investments and recommend the best action for your portfolio. For free. All you need to do is to upload your eCAS statement!
+                Or rather, with eCAS. The brand name Portfolio Audit will analyse your existing investments and recommend the best action for your portfolio. For free. All you need to do is to upload your eCAS statement!
               </div>
               <a
                 className="sb-primary-cta-button trigger-event"
@@ -1818,7 +1818,7 @@ congue in, placerat vel, adipiscing in, dui. Mauris b</p>
                       <div className="wealth-faq-collapse-header" id="heading-0">
                         <div aria-controls="collapse-0" aria-expanded="true" className="d-flex align-content-center flex-row p-0 text-left wealth-section-description collapsed" data-target="#collapse-0" data-toggle="collapse">
                           <p className="m-0" itemprop="name">
-                            How does Scripbox earn money?
+                            How does brand name earn money?
                           </p>
                           <div className="arrow-down">
                             <svg className="home-svg-sprite" height="30px" width="30px">
@@ -1864,7 +1864,7 @@ congue in, placerat vel, adipiscing in, dui. Mauris b</p>
                       <div className="wealth-faq-collapse-header" id="heading-2">
                         <div aria-controls="collapse-2" aria-expanded="false" className="d-flex align-content-center flex-row p-0 text-left wealth-section-description collapsed" data-target="#collapse-2" data-toggle="collapse">
                           <p className="m-0" itemprop="name">
-                            Why should I invest through Scripbox?
+                            Why should I invest through brandname
                           </p>
                           <div className="arrow-down">
                             <svg className="home-svg-sprite" height="30px" width="30px">
@@ -1886,7 +1886,7 @@ congue in, placerat vel, adipiscing in, dui. Mauris b</p>
                       <div className="wealth-faq-collapse-header" id="heading-3">
                         <div aria-controls="collapse-3" aria-expanded="false" className="d-flex align-content-center flex-row p-0 text-left wealth-section-description collapsed" data-target="#collapse-3" data-toggle="collapse">
                           <p className="m-0" itemprop="name">
-                            Can I add a family member to my Scripbox investment account?
+                            Can I add a family member to my brand name investment account?
                           </p>
                           <div className="arrow-down">
                             <svg className="home-svg-sprite" height="30px" width="30px">
@@ -1897,7 +1897,7 @@ congue in, placerat vel, adipiscing in, dui. Mauris b</p>
                       </div>
                       <div aria-labelledby="heading-0" className="collapse" data-parent="#faq-accordion-set-1" id="collapse-3" itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer">
                         <div className="wealth-faq-collapse-content" itemprop="text">
-                          Absolutely. Just use ‘Add a Family Member’ in your Scripbox account. This new account will be linked to your existing Scripbox account, and you’ll get a single dashboard that helps you make better decisions, with
+                          Absolutely. Just use ‘Add a Family Member’ in your brand name account. This new account will be linked to your existing brand name account, and you’ll get a single dashboard that helps you make better decisions, with
                           information and insights.
                         </div>
                       </div>
@@ -1906,7 +1906,7 @@ congue in, placerat vel, adipiscing in, dui. Mauris b</p>
                       <div className="wealth-faq-collapse-header" id="heading-4">
                         <div aria-controls="collapse-4" aria-expanded="false" className="d-flex align-content-center flex-row p-0 text-left wealth-section-description collapsed" data-target="#collapse-4" data-toggle="collapse">
                           <p className="m-0" itemprop="name">
-                            Can I invest in funds other than the ones Scripbox recommends?
+                            Can I invest in funds other than the ones brand name recommends?
                           </p>
                           <div className="arrow-down">
                             <svg className="home-svg-sprite" height="30px" width="30px">
