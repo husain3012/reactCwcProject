@@ -6,7 +6,7 @@ function Header() {
     <nav className="navbar-expand-md navbar-nav top-nav-alignment top-navbar">
 <div className="d-md-none">
 <a className="navbar-brand" href="https://scripbox.com/">
-<img alt="Scripbox Logo" className="sbSvgFallback img-fluid" data-fallback="https://asset13.scripbox.com/assets/logo-78b16bd77b64dd2faba06016cab14b92e126c0e30e967c106f6cd01fe8851a75.png" src="https://asset11.scripbox.com/assets/logo-51c21f8c74532748f6acbc82e354cbe3feb2bb2f8eee49b4ecde59993b2528ba.svg" />
+<img alt="Scripbox Logo" className="sbSvgFallback img-fluid" src="/assets/brandname.png" />
 </a>
 <div className="d-inline logo-country-separator"></div>
 <div className="d-inline" id="country-switcher-mobile">
