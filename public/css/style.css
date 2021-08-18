@@ -147,6 +147,7 @@
   top:0;
   width:100%;
   }
+
   
   @media only screen and (max-width: 768px) {
   .top-navbar .nav-link {
@@ -276,6 +277,10 @@
   padding:0;
   }
   }
+
+  .highlighted-word-wrapper{
+    color:#fff ;
+  }
   
   @media only screen and (min-width: 768px) {
   #footer .footer-links {
@@ -392,7 +397,6 @@
   }
   
   #home-landing-page .highlight:after {
-  background:url(//asset10.scripbox.com/assets/invest/highlight-strike-3f0b3c4aa918c67db981eee9b66c01802e615eb18e13a2bd8c4da30e85d70d02.png) no-repeat;
   content:"";
   display:inline-block;
   height:10px;
@@ -1430,18 +1434,18 @@
   }
   }
   
-  #scripbox-wealth-home .feature-title {
+  #wealth-home .feature-title {
   font-size:24px;
   font-weight:600;
   }
   
-  #scripbox-wealth-home .h2-wealth-title {
+  #wealth-home .h2-wealth-title {
   font-size:48px;
   font-weight:700;
   line-height:1.2;
   }
   
-  #scripbox-wealth-home .wealth-section-title {
+  #wealth-home .wealth-section-title {
   color:#000;
   font-size:36px;
   font-weight:700;
@@ -1449,13 +1453,13 @@
   margin-bottom:24px;
   }
   
-  #scripbox-wealth-home .wealth-section-description {
+  #wealth-home .wealth-section-description {
   color:#000;
   font-size:16px;
   line-height:1.6;
   }
   
-  #scripbox-wealth-home .sb-tag {
+  #wealth-home .sb-tag {
   color:#fff;
   display:inline-block;
   font-size:10px;
@@ -1465,44 +1469,44 @@
   text-transform:uppercase;
   }
   
-  #scripbox-wealth-home .sb-tag.trust {
+  #wealth-home .sb-tag.trust {
   background:#dde7fc;
   color:#333;
   }
   
-  #scripbox-wealth-home .sb-tag.science {
+  #wealth-home .sb-tag.science {
   background:#f6e0ff;
   color:#333;
   }
   
-  #scripbox-wealth-home .sb-tag.sb-offerings {
+  #wealth-home .sb-tag.sb-offerings {
   background:#f3dace;
   color:#333;
   }
   
-  #scripbox-wealth-home .header-wealth-title {
+  #wealth-home .header-wealth-title {
   font-size:60px;
   font-weight:700;
   line-height:1.2;
   margin-bottom:20px;
   }
   
-  #scripbox-wealth-home .header-wealth-title.science-header-title {
+  #wealth-home .header-wealth-title.science-header-title {
   font-size:50px;
   }
   
-  #scripbox-wealth-home .header-wealth-description {
+  #wealth-home .header-wealth-description {
   color:#333;
   font-size:20px;
   line-height:1.6;
   }
   
   @media only screen and (max-width: 993px) {
-  #scripbox-wealth-home .header-wealth-title,#scripbox-wealth-home .header-wealth-title.science-header-title {
+  #wealth-home .header-wealth-title,#wealth-home .header-wealth-title.science-header-title {
   font-size:40px;
   }
   
-  #scripbox-wealth-home .header-wealth-description {
+  #wealth-home .header-wealth-description {
   font-size:18px;
   }
   }
@@ -13587,7 +13591,7 @@
   }
   }
   
-  #scripbox-wealth-home .media-house-logo-container .media-house-logo {
+  #wealth-home .media-house-logo-container .media-house-logo {
   border:1px solid #eaeaea;
   border-radius:8px;
   display:inline-block;
@@ -13595,11 +13599,11 @@
   padding:12px;
   }
   
-  #scripbox-wealth-home .media-house-logo-wrapper {
+  #wealth-home .media-house-logo-wrapper {
   position:relative;
   }
   
-  #scripbox-wealth-home .media-house-logo-wrapper:after {
+  #wealth-home .media-house-logo-wrapper:after {
   background-image:linear-gradient(to right,#fff,rgba(255,255,255,0) 20%),linear-gradient(to left,#fff,rgba(255,255,255,0) 20%);
   bottom:0;
   content:"";
@@ -13609,7 +13613,7 @@
   top:0;
   }
   
-  #scripbox-wealth-home .media-house-logo-block {
+  #wealth-home .media-house-logo-block {
   animation:logos-slider 60s linear infinite;
   background:url(//asset12.scripbox.com/assets/invest/wealth-home/media-house-logos-5134301f6c010d011e26aa048d2dee3e20a6df161beb4c95e2e1b463c232d532.png) repeat 0 0;
   background-size:cover;
@@ -13618,7 +13622,7 @@
   }
   
   @media only screen and (max-width: 768px) {
-  #scripbox-wealth-home .media-house-logo-block {
+  #wealth-home .media-house-logo-block {
   animation:logos-slider-mobile 60s linear infinite;
   background:url(//asset12.scripbox.com/assets/invest/wealth-home/media-house-logos-mobile-a40df14da0f0118b4357425c000456c4f7f361b4f4fc42eb0dc571e047b88841.png) repeat 0 0;
   background-size:cover;
@@ -13627,7 +13631,7 @@
   }
   }
   
-  #scripbox-wealth-home .wealth-section-title {
+  #wealth-home .wealth-section-title {
   color:#000;
   font-size:36px;
   font-weight:700;
@@ -13635,13 +13639,13 @@
   margin-bottom:24px;
   }
   
-  #scripbox-wealth-home .wealth-section-description {
+  #wealth-home .wealth-section-description {
   color:#000;
   font-size:16px;
   line-height:1.6;
   }
   
-  #scripbox-wealth-home .thrive-on-trust .highlighted-number {
+  #wealth-home .thrive-on-trust .highlighted-number {
   color:#FF6B6B;
   display:inline-block;
   font-size:72px;
@@ -13651,7 +13655,7 @@
   text-transform:uppercase;
   }
   
-  #scripbox-wealth-home .thrive-on-trust .plus-sign {
+  #wealth-home .thrive-on-trust .plus-sign {
   bottom:7px;
   display:inline-block;
   font-size:40px;
@@ -13659,11 +13663,11 @@
   right:-12px;
   }
   
-  #scripbox-wealth-home .thrive-on-trust .plus-sign span {
+  #wealth-home .thrive-on-trust .plus-sign span {
   color:#9e3d1b;
   }
   
-  #scripbox-wealth-home .thrive-on-trust .floating-text {
+  #wealth-home .thrive-on-trust .floating-text {
   bottom:14px;
   color:#051633;
   display:inline-block;
@@ -13673,115 +13677,115 @@
   left:28px;
   }
   
-  #scripbox-wealth-home .thrive-on-trust .floating-content {
+  #wealth-home .thrive-on-trust .floating-content {
   position:absolute;
   }
   
-  #scripbox-wealth-home .thrive-on-trust .floating-content.million-text {
+  #wealth-home .thrive-on-trust .floating-content.million-text {
   bottom:0;
   white-space:nowrap;
   }
   
-  #scripbox-wealth-home .thrive-on-trust .floating-content.right {
+  #wealth-home .thrive-on-trust .floating-content.right {
   bottom:23px;
   left:-14px;
   }
   
   @media screen and (max-width: 993px) and (min-width: 768px) {
-  #scripbox-wealth-home .thrive-on-trust .highlighted-number {
+  #wealth-home .thrive-on-trust .highlighted-number {
   font-size:55px;
   }
   
-  #scripbox-wealth-home .thrive-on-trust .floating-text {
+  #wealth-home .thrive-on-trust .floating-text {
   font-size:10px;
   }
   }
   
-  #scripbox-wealth-home .talk-to-experts .toll-free-number {
+  #wealth-home .talk-to-experts .toll-free-number {
   color:#FF6B6B;
   font-size:42px;
   line-height:1.2;
   text-decoration:none;
   }
   
-  #scripbox-wealth-home .talk-to-experts .wealth-section-description {
+  #wealth-home .talk-to-experts .wealth-section-description {
   color:#4d4d4d;
   }
   
   @media only screen and (min-width: 768px) {
-  #scripbox-wealth-home .talk-to-experts-content {
+  #wealth-home .talk-to-experts-content {
   padding-right:30px;
   }
   }
   
   @media only screen and (max-width: 768px) {
-  #scripbox-wealth-home .talk-to-experts-content {
+  #wealth-home .talk-to-experts-content {
   padding:28px 0;
   }
   }
   
   @media only screen and (max-width: 1200px) {
-  #scripbox-wealth-home .wealth-rm-sprite {
+  #wealth-home .wealth-rm-sprite {
   background:url(//asset12.scripbox.com/assets/invest/wealth-home/wealth-experts/wealth-rm-sprite-b947395978dd0a561ed322515f64fe0e8d2c1b7d2396458fa40b103b1033d596.png) no-repeat;
   display:inline-block;
   height:130px;
   width:131px;
   }
   
-  #scripbox-wealth-home .wealth-rm-sprite.wealth-rm-1 {
+  #wealth-home .wealth-rm-sprite.wealth-rm-1 {
   background-position:-20px -0;
   }
   
-  #scripbox-wealth-home .wealth-rm-sprite.wealth-rm-2 {
+  #wealth-home .wealth-rm-sprite.wealth-rm-2 {
   background-position:-170px -0;
   }
   
-  #scripbox-wealth-home .wealth-rm-sprite.wealth-rm-3 {
+  #wealth-home .wealth-rm-sprite.wealth-rm-3 {
   background-position:-20px -150px;
   }
   
-  #scripbox-wealth-home .wealth-rm-sprite.wealth-rm-4 {
+  #wealth-home .wealth-rm-sprite.wealth-rm-4 {
   background-position:-170px -150px;
   }
   
-  #scripbox-wealth-home .wealth-rm-sprite.wealth-rm-5 {
+  #wealth-home .wealth-rm-sprite.wealth-rm-5 {
   background-position:-20px -300px;
   }
   
-  #scripbox-wealth-home .wealth-rm-sprite.wealth-rm-6 {
+  #wealth-home .wealth-rm-sprite.wealth-rm-6 {
   background-position:-170px -300px;
   }
   }
   
   @media only screen and (min-width: 1200px) {
-  #scripbox-wealth-home .wealth-rm-sprite {
+  #wealth-home .wealth-rm-sprite {
   background:url(//asset11.scripbox.com/assets/invest/wealth-home/wealth-experts/wealth-rm-sprite-large-92a73adba9bc40bd7864423110ca19846484daf07acd1fd3d3a18b861981e6b7.png) no-repeat;
   display:inline-block;
   height:170px;
   width:170px;
   }
   
-  #scripbox-wealth-home .wealth-rm-sprite.wealth-rm-1 {
+  #wealth-home .wealth-rm-sprite.wealth-rm-1 {
   background-position:-20px -0;
   }
   
-  #scripbox-wealth-home .wealth-rm-sprite.wealth-rm-2 {
+  #wealth-home .wealth-rm-sprite.wealth-rm-2 {
   background-position:-210px -0;
   }
   
-  #scripbox-wealth-home .wealth-rm-sprite.wealth-rm-3 {
+  #wealth-home .wealth-rm-sprite.wealth-rm-3 {
   background-position:-20px -190px;
   }
   
-  #scripbox-wealth-home .wealth-rm-sprite.wealth-rm-4 {
+  #wealth-home .wealth-rm-sprite.wealth-rm-4 {
   background-position:-210px -190px;
   }
   
-  #scripbox-wealth-home .wealth-rm-sprite.wealth-rm-5 {
+  #wealth-home .wealth-rm-sprite.wealth-rm-5 {
   background-position:-20px -380px;
   }
   
-  #scripbox-wealth-home .wealth-rm-sprite.wealth-rm-6 {
+  #wealth-home .wealth-rm-sprite.wealth-rm-6 {
   background-position:-210px -380px;
   }
   }
@@ -13805,6 +13809,8 @@
   body {
   font-family:"Lato",sans-serif;
   letter-spacing:.2px;
+  
+  
   }
   
   .hide {
@@ -13896,56 +13902,56 @@
   font-size:16px;
   }
   
-  #scripbox-wealth-home .highlighted-word {
+  #wealth-home .highlighted-word {
   color:#FF6B6B;
   }
   
-  #scripbox-wealth-home .header-wealth-description-text {
+  #wealth-home .header-wealth-description-text {
   margin-top:80px;
   }
   
-  #scripbox-wealth-home .wealth-faq-wrapper .arrow-down,#scripbox-wealth-home .wealth-faq-wrapper .arrow-up {
+  #wealth-home .wealth-faq-wrapper .arrow-down,#wealth-home .wealth-faq-wrapper .arrow-up {
   display:inline-block;
   overflow:hidden;
   text-align:left;
   }
   
-  #scripbox-wealth-home .arrow-down {
+  #wealth-home .arrow-down {
   transform:rotate(180deg);
   }
   
-  #scripbox-wealth-home .collapsed .arrow-down {
+  #wealth-home .collapsed .arrow-down {
   transform:rotate(0deg);
   }
   
-  #scripbox-wealth-home .cararra-background {
+  #wealth-home .cararra-background {
   background:#f1f1ea;
   }
   
-  #scripbox-wealth-home .wealth-streak-word {
+  #wealth-home .wealth-streak-word {
   position:relative;
   }
   
-  #scripbox-wealth-home .wealth-streak-word img {
+  #wealth-home .wealth-streak-word img {
   bottom:-4px;
   left:0;
   position:absolute;
   }
   
-  #scripbox-wealth-home .wealth-section-space {
+  #wealth-home .wealth-section-space {
   padding:60px 0;
   }
   
-  #scripbox-wealth-home .moon-mist-background {
-  background:#FDD2BF;
+  #wealth-home .moon-mist-background {
+  background:#77ACF1;
   }
   
-  #scripbox-wealth-home .science-wealth-faq .science-faq-divider {
+  #wealth-home .science-wealth-faq .science-faq-divider {
   display:block;
   padding-bottom:20px;
   }
   
-  #scripbox-wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-header {
+  #wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-header {
   background:#dcdcd0;
   border:none;
   color:#3d3d27;
@@ -13954,78 +13960,79 @@
   font-weight:700;
   }
   
-  #scripbox-wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-header .science-collapse {
+  #wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-header .science-collapse {
   padding:20px;
   }
   
-  #scripbox-wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-header h3 {
+  #wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-header h3 {
   font-weight:800;
   }
   
-  #scripbox-wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-header:hover {
+  #wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-header:hover {
   background:linear-gradient(90deg,#f0f0e9 0%,#fff 100%,#fff 100%);
   }
   
-  #scripbox-wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-header button:active,#scripbox-wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-header button:focus,#scripbox-wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-header button:hover {
+  #wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-header button:active,#wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-header button:focus,#wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-header button:hover {
   text-decoration:none;
   }
   
-  #scripbox-wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-content {
+  #wealth-home .science-wealth-faq .science-faq-collapse-wrapper .science-faq-collapse-content {
   background:#f4f4f0;
   padding:20px;
   }
   
-  #scripbox-wealth-home .science-wealth-faq .science-faq-collapse-wrapper .faq-ordered-list-icon {
+  #wealth-home .science-wealth-faq .science-faq-collapse-wrapper .faq-ordered-list-icon {
   background:#d8d8c7;
   border-radius:50%;
   color:#4d4d3d;
   display:flex;
   font-weight:700;
   height:32px;
+  margin-top: 60px;
   margin-bottom:26px;
   margin-right:20px;
   width:32px;
   }
   
-  #scripbox-wealth-home .home-header {
-  background:#FDD2BF;
+  #wealth-home .home-header {
+  background:#77ACF1;
   padding:60px 0;
   }
   
-  #scripbox-wealth-home .home-header .wealth-header-image {
-  background:url(https://source.unsplash.com/featured/?pink) no-repeat;
+  #wealth-home .home-header .wealth-header-image {
+  background:url(https://source.unsplash.com/featured/?blue) no-repeat;
   background-position:top;
   background-size:cover;
   border-radius:10px;
   }
   
-  #scripbox-wealth-home .home-header .wealth-header-content {
+  #wealth-home .home-header .wealth-header-content {
   padding-right:30px;
   }
   
-  #scripbox-wealth-home .wealth-home-header {
-    background:url(https://source.unsplash.com/featured/?pink) no-repeat;
+  #wealth-home .wealth-home-header {
+    background:url(https://source.unsplash.com/featured/?blue) no-repeat;
     background-position:center;
   background-size:cover;
   height:360px;
   }
   
-  #scripbox-wealth-home .scripbox-offering-cards-container {
+  #wealth-home .scripbox-offering-cards-container {
   height:450px;
   overflow:hidden;
   }
   
-  #scripbox-wealth-home .wealth-scripbox-offerings .sb-carousel-indicator {
+  #wealth-home .wealth-scripbox-offerings .sb-carousel-indicator {
   bottom:-12px;
   }
   
-  #scripbox-wealth-home .wealth-scripbox-offerings .sb-carousel-indicator.carousel-indicators li {
+  #wealth-home .wealth-scripbox-offerings .sb-carousel-indicator.carousel-indicators li {
   border:1px solid #ccc;
   height:5px;
   width:5px;
   }
   
-  #scripbox-wealth-home .wealth-scripbox-offerings .scripbox-offering-card {
+  #wealth-home .wealth-scripbox-offerings .scripbox-offering-card {
   background:#fff;
   border:0;
   border-radius:4px;
@@ -14033,66 +14040,66 @@
   text-decoration:none;
   }
   
-  #scripbox-wealth-home .wealth-scripbox-offerings .scripbox-offering-card:hover {
+  #wealth-home .wealth-scripbox-offerings .scripbox-offering-card:hover {
   box-shadow:1px 2px 25px 0 rgba(0,0,0,0.1),inset 1px 1px 0 0 rgba(255,255,255,0.7);
   }
   
-  #scripbox-wealth-home .wealth-scripbox-offerings .scripbox-offering-card:hover .learn-more-link {
+  #wealth-home .wealth-scripbox-offerings .scripbox-offering-card:hover .learn-more-link {
   visibility:visible;
   }
   
-  #scripbox-wealth-home .wealth-scripbox-offerings .scripbox-offering-card .home-offering-collapse-header {
+  #wealth-home .wealth-scripbox-offerings .scripbox-offering-card .home-offering-collapse-header {
   cursor:pointer;
   }
   
-  #scripbox-wealth-home .wealth-scripbox-offerings .scripbox-offering-card .learn-more-link {
+  #wealth-home .wealth-scripbox-offerings .scripbox-offering-card .learn-more-link {
   margin-top:20px;
   visibility:hidden;
   }
   
-  #scripbox-wealth-home .wealth-scripbox-offerings .scripbox-offering-card .offering-color-block {
+  #wealth-home .wealth-scripbox-offerings .scripbox-offering-card .offering-color-block {
   display:inline-block;
   height:27px;
   width:2px;
   }
   
-  #scripbox-wealth-home .wealth-scripbox-offerings .scripbox-offering-card .offering-title {
+  #wealth-home .wealth-scripbox-offerings .scripbox-offering-card .offering-title {
   color:#333;
   font-size:20px;
   font-weight:600;
   margin-bottom:8px;
   }
   
-  #scripbox-wealth-home .wealth-scripbox-offerings .scripbox-offering-card .offering-description {
+  #wealth-home .wealth-scripbox-offerings .scripbox-offering-card .offering-description {
   color:#4a4b4d;
   font-size:16px;
   font-weight:300;
   }
   
-  #scripbox-wealth-home .wealth-scripbox-offerings .scripbox-offering-card .card-footer {
+  #wealth-home .wealth-scripbox-offerings .scripbox-offering-card .card-footer {
   background:none;
   border:none;
   }
   
-  #scripbox-wealth-home .wealth-scripbox-offerings .scripbox-offering-card .offering-donut-chart-container .donut-container {
+  #wealth-home .wealth-scripbox-offerings .scripbox-offering-card .offering-donut-chart-container .donut-container {
   max-width:100%;
   min-height:160px;
   }
   
-  #scripbox-wealth-home .trusted-customer-testimonials .wealth-quote-svg {
+  #wealth-home .trusted-customer-testimonials .wealth-quote-svg {
   height:158px;
   width:132px;
   }
   
-  #scripbox-wealth-home .trusted-customer-testimonials .sb-carousel-indicator {
+  #wealth-home .trusted-customer-testimonials .sb-carousel-indicator {
   bottom:-50px;
   }
   
-  #scripbox-wealth-home .trusted-customer-testimonials .sb-carousel-indicator.carousel-indicators li {
+  #wealth-home .trusted-customer-testimonials .sb-carousel-indicator.carousel-indicators li {
   border:1px solid #b6b6b6;
   }
   
-  #scripbox-wealth-home .trusted-customer-testimonials .wealth-customer-testimonial {
+  #wealth-home .trusted-customer-testimonials .wealth-customer-testimonial {
   color:#333;
   font-size:22px;
   font-style:italic;
@@ -14101,51 +14108,51 @@
   margin-top:-65px;
   }
   
-  #scripbox-wealth-home #wealth-video-testimonial .modal-content {
+  #wealth-home #wealth-video-testimonial .modal-content {
   background:transparent;
   }
   
-  #scripbox-wealth-home #wealth-video-testimonial .modal-header .close {
+  #wealth-home #wealth-video-testimonial .modal-header .close {
   color:#fff;
   padding:30px 20px;
   }
   
-  #scripbox-wealth-home .home-wealth-faq .wealth-faq-collapse-wrapper .wealth-faq-collapse-header {
+  #wealth-home .home-wealth-faq .wealth-faq-collapse-wrapper .wealth-faq-collapse-header {
   border-bottom:1px solid #b6b6b6;
   cursor:pointer;
   padding:10px;
   }
   
-  #scripbox-wealth-home .home-wealth-faq .wealth-faq-collapse-wrapper .wealth-faq-collapse-header:hover {
+  #wealth-home .home-wealth-faq .wealth-faq-collapse-wrapper .wealth-faq-collapse-header:hover {
   background:linear-gradient(90deg,#f0f0e9 0%,#fff 100%,#fff 100%);
   }
   
-  #scripbox-wealth-home .home-wealth-faq .wealth-faq-collapse-wrapper .wealth-faq-collapse-header button:active,#scripbox-wealth-home .home-wealth-faq .wealth-faq-collapse-wrapper .wealth-faq-collapse-header button:focus,#scripbox-wealth-home .home-wealth-faq .wealth-faq-collapse-wrapper .wealth-faq-collapse-header button:hover {
+  #wealth-home .home-wealth-faq .wealth-faq-collapse-wrapper .wealth-faq-collapse-header button:active,#wealth-home .home-wealth-faq .wealth-faq-collapse-wrapper .wealth-faq-collapse-header button:focus,#wealth-home .home-wealth-faq .wealth-faq-collapse-wrapper .wealth-faq-collapse-header button:hover {
   text-decoration:none;
   }
   
-  #scripbox-wealth-home .home-wealth-faq .wealth-faq-collapse-wrapper .wealth-faq-collapse-content {
+  #wealth-home .home-wealth-faq .wealth-faq-collapse-wrapper .wealth-faq-collapse-content {
   padding:10px;
   }
   
-  #scripbox-wealth-home .home-blog-section .home-blog-card {
+  #wealth-home .home-blog-section .home-blog-card {
   max-width:440px;
   min-width:440px;
   padding-right:30px;
   }
   
-  #scripbox-wealth-home .home-blog-section .home-blog-card .card-body a {
+  #wealth-home .home-blog-section .home-blog-card .card-body a {
   color:#333;
   text-decoration:none;
   word-wrap:normal;
   }
   
-  #scripbox-wealth-home .home-blog-section .home-blog-card .card-body a:hover,#scripbox-wealth-home .home-blog-section .home-blog-card .card-body a :active,#scripbox-wealth-home .home-blog-section .home-blog-card .card-body a :visited,#scripbox-wealth-home .home-blog-section .home-blog-card .card-body a :link,#scripbox-wealth-home .home-blog-section .home-blog-card .card-body a :focus {
+  #wealth-home .home-blog-section .home-blog-card .card-body a:hover,#wealth-home .home-blog-section .home-blog-card .card-body a :active,#wealth-home .home-blog-section .home-blog-card .card-body a :visited,#wealth-home .home-blog-section .home-blog-card .card-body a :link,#wealth-home .home-blog-section .home-blog-card .card-body a :focus {
   color:#333;
   text-decoration:none;
   }
   
-  #scripbox-wealth-home .home-blog-section .home-blog-card .blog-article-image {
+  #wealth-home .home-blog-section .home-blog-card .blog-article-image {
   background-position:center;
   background-size:cover;
   height:175px;
@@ -14153,13 +14160,13 @@
   width:100%;
   }
   
-  #scripbox-wealth-home .home-blog-section .home-blog-card .blog-article-date {
+  #wealth-home .home-blog-section .home-blog-card .blog-article-date {
   font-size:12px;
   font-weight:700;
   margin:10px 0 0;
   }
   
-  #scripbox-wealth-home .home-blog-section .home-blog-card .blog-article-title {
+  #wealth-home .home-blog-section .home-blog-card .blog-article-title {
   display:block;
   line-height:36px;
   margin:10px 0;
@@ -14167,7 +14174,7 @@
   overflow:hidden;
   }
   
-  #scripbox-wealth-home .home-blog-section .home-blog-card .blog-article-description {
+  #wealth-home .home-blog-section .home-blog-card .blog-article-description {
   color:#4d4d4d;
   display:block;
   line-height:24px;
@@ -14176,11 +14183,11 @@
   overflow:hidden;
   }
   
-  #scripbox-wealth-home .home-blog-section .home-blog-card .card-footer {
+  #wealth-home .home-blog-section .home-blog-card .card-footer {
   background:none;
   }
   
-  #scripbox-wealth-home .scripbox-feature-card {
+  #wealth-home .scripbox-feature-card {
   border:none;
   border-radius:4px;
   margin-right:12px;
@@ -14188,96 +14195,96 @@
   min-width:280px;
   }
   
-  #scripbox-wealth-home .scripbox-feature-card .feature-content-section {
+  #wealth-home .scripbox-feature-card .feature-content-section {
   padding:23px;
   }
   
-  #scripbox-wealth-home .scripbox-feature-card .card-footer {
+  #wealth-home .scripbox-feature-card .card-footer {
   background:none;
   border:none;
   border-radius:0;
   display:flex;
   }
   
-  #scripbox-wealth-home .scripbox-feature-card .feature-illustration {
+  #wealth-home .scripbox-feature-card .feature-illustration {
   max-width:200px;
   }
   
-  #scripbox-wealth-home .scripbox-feature-card .wealth-features-sprite {
+  #wealth-home .scripbox-feature-card .wealth-features-sprite {
   background:url(//asset13.scripbox.com/assets/invest/wealth-home/features/wealth-features-sprite-486bbd2237bb5ad64102b859efb6deb9b0c3dd6ff1578c5611ff1b93464cc432.png) no-repeat;
   height:143px;
   width:200px;
   }
   
-  #scripbox-wealth-home .scripbox-feature-card .annual-rebalance {
+  #wealth-home .scripbox-feature-card .annual-rebalance {
   background-position:-20px -0;
   }
   
-  #scripbox-wealth-home .scripbox-feature-card .feature-family-account {
+  #wealth-home .scripbox-feature-card .feature-family-account {
   background-position:-240px -0;
   }
   
-  #scripbox-wealth-home .scripbox-feature-card .fund-algo {
+  #wealth-home .scripbox-feature-card .fund-algo {
   background-position:-20px -163px;
   }
   
-  #scripbox-wealth-home .scripbox-feature-card .goal-based-investing {
+  #wealth-home .scripbox-feature-card .goal-based-investing {
   background-position:-240px -163px;
   }
   
-  #scripbox-wealth-home .scripbox-feature-card .investing-strategies {
+  #wealth-home .scripbox-feature-card .investing-strategies {
   background-position:-20px -326px;
   }
   
-  #scripbox-wealth-home .scripbox-feature-card .portfolio-scan {
+  #wealth-home .scripbox-feature-card .portfolio-scan {
   background-position:-240px -326px;
   }
   
-  #scripbox-wealth-home .scripbox-feature-card .smart-withdraw {
+  #wealth-home .scripbox-feature-card .smart-withdraw {
   background-position:-20px -489px;
   }
   
-  #scripbox-wealth-home .scroll-back-arrow,#scripbox-wealth-home .scroll-forward-arrow {
+  #wealth-home .scroll-back-arrow,#wealth-home .scroll-forward-arrow {
   cursor:pointer;
   }
   
-  #scripbox-wealth-home .arrow-disabled {
+  #wealth-home .arrow-disabled {
   cursor:auto;
   opacity:.3;
   }
   
-  #scripbox-wealth-home .x-overflow-scroll {
+  #wealth-home .x-overflow-scroll {
   overflow-x:scroll;
   }
   
-  #scripbox-wealth-home .x-overflow-scroll::-webkit-scrollbar {
+  #wealth-home .x-overflow-scroll::-webkit-scrollbar {
   display:none;
   }
   
   @media only screen and (max-width: 576px) {
-  #scripbox-wealth-home .trusted-customer-testimonials .wealth-quote-svg {
+  #wealth-home .trusted-customer-testimonials .wealth-quote-svg {
   height:79px;
   width:66px;
   }
   
-  #scripbox-wealth-home .trusted-customer-testimonials .wealth-customer-testimonial {
+  #wealth-home .trusted-customer-testimonials .wealth-customer-testimonial {
   font-size:18px;
   margin-left:48px;
   margin-top:-48px;
   min-height:156px;
   }
   
-  #scripbox-wealth-home .wealth-scripbox-offerings .scripbox-offering-card .offering-color-block {
+  #wealth-home .wealth-scripbox-offerings .scripbox-offering-card .offering-color-block {
   left:-2px;
   position:relative;
   width:3px;
   }
   
-  #scripbox-wealth-home #sb-mutual-fund-ecas .ecas-header-section {
+  #wealth-home #sb-mutual-fund-ecas .ecas-header-section {
   padding:0;
   }
   
-  #scripbox-wealth-home #sb-mutual-fund-ecas .ecas-header-section .header-content-wrapper {
+  #wealth-home #sb-mutual-fund-ecas .ecas-header-section .header-content-wrapper {
   background:#fff;
   padding-bottom:20px;
   padding-top:40px;
@@ -14285,144 +14292,144 @@
   }
   
   @media only screen and (max-width: 1199px) {
-  #scripbox-wealth-home .scripbox-offering-cards-container {
+  #wealth-home .scripbox-offering-cards-container {
   height:500px;
   }
   }
   
   @media only screen and (max-width: 993px) {
-  #scripbox-wealth-home .header-wealth-description-text {
+  #wealth-home .header-wealth-description-text {
   margin-top:66px;
   }
   }
   
   @media only screen and (min-width: 768px) {
-  #scripbox-wealth-home .wealth-section-space.science-by-people {
+  #wealth-home .wealth-section-space.science-by-people {
   padding-top:70px;
   }
   
-  #scripbox-wealth-home .desktop-wealth-header {
+  #wealth-home .desktop-wealth-header {
   display:flex;
   min-height:500px;
   }
   
-  #scripbox-wealth-home .mobile-wealth-header {
+  #wealth-home .mobile-wealth-header {
   display:none;
   }
   
-  #scripbox-wealth-home .science-header-content {
+  #wealth-home .science-header-content {
   padding-right:30px;
   }
   
-  #scripbox-wealth-home .wealth-header-content .header-wealth-description.science-desc-space {
+  #wealth-home .wealth-header-content .header-wealth-description.science-desc-space {
   margin-bottom:24px;
   }
   }
   
   @media only screen and (max-width: 767px) {
-  #scripbox-wealth-home .wealth-header-content .header-wealth-description.desc-space {
+  #wealth-home .wealth-header-content .header-wealth-description.desc-space {
   margin-bottom:0;
   }
   
-  #scripbox-wealth-home .ecas-tick-mark {
+  #wealth-home .ecas-tick-mark {
   margin-bottom:0;
   transform:scale(0.8);
   }
   
-  #scripbox-wealth-home .mobile-wealth-header {
+  #wealth-home .mobile-wealth-header {
   display:flex;
   }
   
-  #scripbox-wealth-home .desktop-wealth-header {
+  #wealth-home .desktop-wealth-header {
   display:none;
   }
   
-  #scripbox-wealth-home .mobile-x-overflow-scroll {
+  #wealth-home .mobile-x-overflow-scroll {
   overflow-x:scroll;
   }
   
-  #scripbox-wealth-home .mobile-x-overflow-scroll::-webkit-scrollbar {
+  #wealth-home .mobile-x-overflow-scroll::-webkit-scrollbar {
   display:none;
   }
   
-  #scripbox-wealth-home .home-header {
-  background:#fff;
+  #wealth-home .home-header {
+  background: #77ACF1;
   border-radius:10px;
   margin:-100px 12px 12px;
   padding:32px 16px;
   text-align:left;
   }
   
-  #scripbox-wealth-home .mobile-x-scroll {
+  #wealth-home .mobile-x-scroll {
   max-width:190px;
   }
   }
   
   @media only screen and (max-width: 768px) {
-  #scripbox-wealth-home .trusted-customer-testimonials .wealth-customer-image {
+  #wealth-home .trusted-customer-testimonials .wealth-customer-image {
   margin:0 auto;
   max-width:360px;
   }
   
-  #scripbox-wealth-home .home-blog-section .home-blog-card {
+  #wealth-home .home-blog-section .home-blog-card {
   max-width:270px;
   min-width:270px;
   }
   
-  #scripbox-wealth-home #sb-mutual-fund-ecas .ecas-mobile-img {
+  #wealth-home #sb-mutual-fund-ecas .ecas-mobile-img {
   left:-10.5%;
   text-align:center;
   }
   
-  #scripbox-wealth-home #sb-mutual-fund-ecas .ecas-mobile-img img {
+  #wealth-home #sb-mutual-fund-ecas .ecas-mobile-img img {
   max-height:500px;
   }
   
-  #scripbox-wealth-home .science-wealth-faq .img-to-video-wrapper {
+  #wealth-home .science-wealth-faq .img-to-video-wrapper {
   margin-top:20px;
   }
   
-  #scripbox-wealth-home .header-content-wrapper {
+  #wealth-home .header-content-wrapper {
   max-width:100%;
   }
   
-  #scripbox-wealth-home #sb-science .science-header-section {
+  #wealth-home #sb-science .science-header-section {
   background:#f9faf1;
   padding:60px 0;
   }
   
-  #scripbox-wealth-home #sb-science .science-header-image {
+  #wealth-home #sb-science .science-header-image {
   background:url(//asset12.scripbox.com/assets/invest/wealth-home/science-header-atul-shinghal-9d37df88155c6ecec71667739a0c1a4d92f2dbb60a049e1bcd9d368a584523ef.jpg) no-repeat;
   background-position:top;
   background-size:cover;
   height:360px;
   }
   
-  #scripbox-wealth-home .wealth-header-image {
-    background:url(https://source.unsplash.com/featured/?pink) no-repeat;
+  #wealth-home .wealth-header-image {
+    background:url(https://source.unsplash.com/featured/?blue) no-repeat;
     background-position:top;
   background-size:cover;
   height:360px;
   }
   
-  #scripbox-wealth-home .wealth-section-space.get-started-with-ease {
+  #wealth-home .wealth-section-space.get-started-with-ease {
   padding-bottom:45px;
   }
   
-  #scripbox-wealth-home .wealth-section-space.get-started-with-ease .ease-mobile-img {
+  #wealth-home .wealth-section-space.get-started-with-ease .ease-mobile-img {
   margin:26px auto 0;
   max-width:300px;
   }
   
-  #scripbox-wealth-home #faq-accordion-set-2.wealth-faq-collapse-wrapper {
+  #wealth-home #faq-accordion-set-2.wealth-faq-collapse-wrapper {
   border:0;
   }
   
-  #scripbox-wealth-home .science-by-people.pb-0 {
+  #wealth-home .science-by-people.pb-0 {
   margin-bottom:45px;
   }
   
-  #scripbox-wealth-home .wealth-section-space {
+  #wealth-home .wealth-section-space {
   padding:45px 0;
   }
   }

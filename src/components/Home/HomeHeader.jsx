@@ -1,3 +1,4 @@
+
 function HomeHeader() {
   return (
     <div className="home-header">
@@ -9,22 +10,13 @@ function HomeHeader() {
                 <h1 className="header-wealth-title">
                   LOREM IPSUM
                   <div className="highlighted-word-wrapper">
-                    <div className="text-animation-wrapper">
-                      <input className="child animated-header-input spin-to-top hide" id="animated-header-input" />
-                      <div className="static-text-box child spin-to-top hide" id="animated-header-automated-text">
-                        SUBHEADING 1
-                      </div>
-                      <div className="static-text-box child text-rotate" id="animated-hfeader-delivered-text">
-                      SUBHEADING 2
-                        <span className="fullstop" id="animated-header-fullstop"></span>
-                      </div>
-                    </div>
+                    <div  className="static-text-box child spin-to-top">SUBHEADING 1</div>
                   </div>
                 </h1>
-                <div className="header-wealth-description mb-24 header-wealth-description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-optio, eaque rerum! </div>
+                <div className="header-wealth-description mb-24 header-wealth-description-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga
+                  praesentium optio, eaque rerum!{" "}
+                </div>
               </div>
               <div className="mt-3 mb-3">
                 <button
@@ -49,4 +41,4 @@ optio, eaque rerum! </div>
   );
 }
 
-export default HomeHeader
+export default HomeHeader;

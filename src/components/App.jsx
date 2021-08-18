@@ -1,21 +1,26 @@
 import React, { useState } from "react";
-import Header from "./Header";
-import GetStarted from "./GetStarted";
 import Footer from "./Footer";
+import Home from "../pages/Home";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "./Navbar/Navbar";
+import { PageWrapper } from "./PageWrapper";
+// Colors:
+// Purple: #5C05C4
+// Athens gray: #E6E3ED
+// Greenish: #47CBB0
+// Trout: #4E545E
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <PageWrapper>
+        <Switch>
+          <Route exact path="/" component={Home} />
+        </Switch>
+      </PageWrapper>
 
-
-
-function App(){
-
-
-
-    return (
-        <div>
-            <Header />
-            <GetStarted/>
-            <Footer/>
-        </div>
-    )
-
+      <Footer />
+    </Router>
+  );
 }
 export default App;

@@ -2,19 +2,19 @@ import { getDefaultNormalizer } from "@testing-library/react"
 
 function Footer(){
     return(
-  <footer class="footer">
-  	 <div class="container">
-  	 	<div class="row">
-  	 		<div class="footer-col">
+  <footer className="footer">
+  	 <div className="container">
+  	 	<div className="row">
+  	 		<div className="footer-col">
   	 			<h4>Sitesoch</h4>
   	 			<ul>
-  	 				<li><a href="#">Home</a></li>
-  	 				<li><a href="#">About</a></li>
-  	 				<li><a href="#">Pricing</a></li>
-  	 				<li><a href="#">Privacy Policy</a></li>
+  	 				<li><a href="/">Home</a></li>
+  	 				<li><a href="/">About</a></li>
+  	 				<li><a href="/">Pricing</a></li>
+  	 				<li><a href="/">Privacy Policy</a></li>
   	 			</ul>
   	 		</div>
-  	 		<div class="footer-col">
+  	 		<div className="footer-col">
   	 			<h4>Get Help</h4>
   	 			<ul>
   	 				<li><a href="#">Shipping</a></li>
@@ -23,19 +23,19 @@ function Footer(){
   	 				<li><a href="#">Payment Options</a></li>
   	 			</ul>
   	 		</div>
-  	 		<div class="footer-col">
+  	 		<div className="footer-col">
   	 			<h4>Address</h4>
   	 			<ul>
   	 				<li><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate adipisci quia ab omnis id ipsum quae inventore </a></li>
   	 			</ul>
   	 		</div>
-  	 		<div class="footer-col">
+  	 		<div className="footer-col">
   	 			<h4>follow us</h4>
-  	 			<div class="social-links">
-  	 				<a href="#"><i class="fab fa-google"></i></a>
-  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
-  	 				<a href="#"><i class="fab fa-instagram"></i></a>
-  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 			<div className="social-links">
+  	 				<a href="#"><i className="fab fa-google"></i></a>
+  	 				<a href="#"><i className="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i className="fab fa-instagram"></i></a>
+  	 				<a href="#"><i className="fab fa-twitter"></i></a>
   	 			</div>
   	 		</div>
   	 	</div>
