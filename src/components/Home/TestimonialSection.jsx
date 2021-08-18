@@ -20,11 +20,6 @@ const TestimonialSection = () => {
                   <div className="row d-flex">
                     <div className="col-12 col-md-6 col-lg-8 d-flex align-items-center">
                       <div className="position-relative">
-                        <div className="wealth-customer-quote">
-                          <svg className="wealth-quote-svg">
-                            <use xlinkHref="https://scripbox.com/assets/svg-sprite/home-plan-svg.svg#testimonial-quote"></use>
-                          </svg>
-                        </div>
                         <p className="wealth-customer-testimonial pr-30">
                           iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ips
                         </p>
@@ -39,10 +34,12 @@ const TestimonialSection = () => {
                         data-properties='{"action": "Home Customer testimonial", "customer_name": "Prasad Ethireddy"}'
                         data-target="#wealth-video-testimonial"
                         data-toggle="modal"
-                        data-video="https://www.youtube.com/embed/uZuGOafkzYA"
+                        data-video=""
                         type="button"
                       >
-                        <img className="img-fluid" alt=" brandname customer Prasad Ethireddy" src="https://source.unsplash.com/featured/?person" />
+                        <div className= "testimonial-carousel-image-wrapper">
+                        <img className="testimonial-carousel-image img-fluid" alt=" brandname customer Chitra Iyengar" src="/assets/testimonial1.jpg" />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -51,11 +48,7 @@ const TestimonialSection = () => {
                   <div className="row d-flex">
                     <div className="col-12 col-md-6 col-lg-8 d-flex align-items-center">
                       <div className="position-relative">
-                        <div className="wealth-customer-quote">
-                          <svg className="wealth-quote-svg">
-                            <use xlinkHref="https://scripbox.com/assets/svg-sprite/home-plan-svg.svg#testimonial-quote"></use>
-                          </svg>
-                        </div>
+                      
                         <p className="wealth-customer-testimonial pr-30">laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. P</p>
                       </div>
                     </div>
@@ -71,7 +64,9 @@ const TestimonialSection = () => {
                         data-video="https://www.youtube.com/embed/P9tkiuVINbk"
                         type="button"
                       >
-                        <img className="img-fluid" alt=" brandname customer Srinivasan Soundararajan" src="https://source.unsplash.com/featured/?man" />
+                        <div className= "testimonial-carousel-image-wrapper">
+                        <img className="testimonial-carousel-image img-fluid" alt=" brandname customer Chitra Iyengar" src="/assets/testimonial3.jpg" />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -80,11 +75,7 @@ const TestimonialSection = () => {
                   <div className="row d-flex">
                     <div className="col-12 col-md-6 col-lg-8 d-flex align-items-center">
                       <div className="position-relative">
-                        <div className="wealth-customer-quote">
-                          <svg className="wealth-quote-svg">
-                            <use xlinkHref="https://scripbox.com/assets/svg-sprite/home-plan-svg.svg#testimonial-quote"></use>
-                          </svg>
-                        </div>
+                     
                         <p className="wealth-customer-testimonial pr-30"> a, fringilla eget, varius at, diam. In in diam nec sapien mattis interdum. Nunc augue nibh, congue in, placerat vel, adipiscing in, dui. Mauris b</p>
                       </div>
                     </div>
@@ -100,7 +91,9 @@ const TestimonialSection = () => {
                         data-video="https://www.youtube.com/embed/kRUHlqcpm1Y"
                         type="button"
                       >
-                        <img className="img-fluid" alt=" brandname customer Chitra Iyengar" src="https://source.unsplash.com/featured/?woman" />
+                      <div className= "testimonial-carousel-image-wrapper">
+                        <img className="testimonial-carousel-image img-fluid" alt=" brandname customer Chitra Iyengar" src="/assets/testimonial3.jpg" />
+                        </div>
                       </div>
                     </div>
                   </div>

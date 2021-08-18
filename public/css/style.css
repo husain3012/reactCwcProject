@@ -13722,6 +13722,7 @@
   #wealth-home .talk-to-experts-content {
   padding:28px 0;
   }
+
   }
   
   @media only screen and (max-width: 1200px) {
@@ -13938,11 +13939,11 @@
   position:absolute;
   }
   
-  #wealth-home .wealth-section-space {
+   .wealth-section-space {
   padding:60px 0;
   }
   
-  #wealth-home .moon-mist-background {
+ .moon-mist-background {
   background:#77ACF1;
   }
   
@@ -14000,10 +14001,13 @@
   }
   
   #wealth-home .home-header .wealth-header-image {
-  background:url(https://source.unsplash.com/featured/?blue) no-repeat;
+  background:url(https://source.unsplash.com/featured/?turquoise) no-repeat;
   background-position:top;
   background-size:cover;
-  border-radius:10px;
+  border-radius: 10px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+
   }
   
   #wealth-home .home-header .wealth-header-content {
@@ -14081,40 +14085,50 @@
   border:none;
   }
   
-  #wealth-home .wealth-scripbox-offerings .scripbox-offering-card .offering-donut-chart-container .donut-container {
+.wealth-scripbox-offerings .scripbox-offering-card .offering-donut-chart-container .donut-container {
   max-width:100%;
   min-height:160px;
   }
   
-  #wealth-home .trusted-customer-testimonials .wealth-quote-svg {
+.trusted-customer-testimonials .wealth-quote-svg {
   height:158px;
   width:132px;
   }
   
-  #wealth-home .trusted-customer-testimonials .sb-carousel-indicator {
+  .trusted-customer-testimonials .sb-carousel-indicator {
   bottom:-50px;
   }
   
-  #wealth-home .trusted-customer-testimonials .sb-carousel-indicator.carousel-indicators li {
+.trusted-customer-testimonials .sb-carousel-indicator.carousel-indicators li {
   border:1px solid #b6b6b6;
   }
   
-  #wealth-home .trusted-customer-testimonials .wealth-customer-testimonial {
+.trusted-customer-testimonials .wealth-customer-testimonial {
   color:#333;
   font-size:22px;
   font-style:italic;
   line-height:2;
   margin-left:100px;
-  margin-top:-65px;
   }
-  
-  #wealth-home #wealth-video-testimonial .modal-content {
+#wealth-video-testimonial .modal-content {
   background:transparent;
   }
   
-  #wealth-home #wealth-video-testimonial .modal-header .close {
+ #wealth-video-testimonial .modal-header .close {
   color:#fff;
   padding:30px 20px;
+  }
+  .testimonial-carousel-image-wrapper{
+    height: 240px;
+  width: 240x;
+    display: flex;
+    justify-content: center;
+
+  }
+ .testimonial-carousel-image{
+    width: inherit;
+    height: inherit;
+    border-radius: 100%;
   }
   
   #wealth-home .home-wealth-faq .wealth-faq-collapse-wrapper .wealth-faq-collapse-header {

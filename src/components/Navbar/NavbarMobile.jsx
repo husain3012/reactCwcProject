@@ -24,11 +24,7 @@ const NavMenu = styled.div`
   flex-direction: column;
 `;
 
-const NavRight = styled.div`
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-`;
+
 
 // export const Nav = styled.nav`
 // background: #012443;
