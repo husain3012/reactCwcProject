@@ -6,10 +6,12 @@
 .login-container {
   /* background-color: #4468e4; */
   background-image: url("login-bg.png");
+  background-size: cover;
   margin-bottom: 100px;
   padding: 3rem 5%;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
+  background-repeat: no-repeat;
 
 }
 
