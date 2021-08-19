@@ -6,8 +6,8 @@ import { useMediaQuery } from "react-responsive";
 
 import "./Login.css";
 const Card = styled.div`
+  margin: auto;
   margin-top: 10%;
-
   margin-bottom: -100px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 100px;
@@ -15,7 +15,11 @@ const Card = styled.div`
   border-top-left-radius: 100px;
   background-color: #e6e3ed;
   padding: 50px;
-  ${"" /* margin: 10%; */}
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
 
   @media and screen (max-width: 768px) {
     max-width: fit-content;
@@ -32,9 +36,9 @@ const HeadingWrapper = styled.div`
   border-top-right-radius: 80px;
   border-top-left-radius: 10px;
   padding: 40px 20px;
+  min-height 100%;
   max-width: 80%;
   margin: auto;
-  height: 100%;
   margin-right: 1rem;
   margin-top: -100px;
   h1 {
