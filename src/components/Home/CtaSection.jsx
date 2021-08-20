@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CtaSection = () => {
   return (
-    <div className="moon-mist-background wealth-section-space get-started-with-ease">
+    <div className="turquoise-background wealth-section-space get-started-with-ease">
       <div className="container">
         <div className="row d-flex">
           <div className="col-12 col-md-6">
@@ -19,23 +20,13 @@ const CtaSection = () => {
             <div className="wealth-section-description my-26">
               Or rather, with eCAS. The brand name Portfolio Audit will analyse your existing investments and recommend the best action for your portfolio. For free. All you need to do is to upload your eCAS statement!
             </div>
-            <a
+            <Link
               className="sb-primary-cta-button trigger-event"
-              data-action="Get started"
-              data-category="conversion"
-              data-label="Get started"
-              data-properties='{"action": "Get started", "location": "home"}'
-              href="https://scripbox.com/user/login?invest_redirect_path=%2Fgenerate-ecas%3FskipDefaultEmail%3D1"
-              rel="nofollow"
+              to="/signup"
             >
               Get Started
-            </a>
-            <p className="mt-20">
-              Don't have an eCAS.
-              <a className="sb-blue-link trigger-event" data-action="Ecas signup" data-category="conversion" data-label="Signup here" data-properties='{"action": "Ecas signup", "location": "home"}' href="https://scripbox.com/user/login">
-                Signup here
-              </a>
-            </p>
+            </Link>
+           
           </div>
         </div>
       </div>

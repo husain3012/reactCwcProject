@@ -1,7 +1,7 @@
 
 function HomeHeader() {
   return (
-    <div className="home-header">
+    <div className="home-header turquoise-background">
       <div className="container">
         <div className="row d-flex">
           <div className="col-12 col-md-6 d-flex align-items-stretch header-content-wrapper">
@@ -20,12 +20,8 @@ function HomeHeader() {
               </div>
               <div className="mt-3 mb-3">
                 <button
-                  className="d-inline-flex align-items-center sb-secondary-cta-button large-btn unset-transform offering-smooth-scroll-tag trigger-event j-trigger-mr"
-                  data-action="Find Out How - Home"
-                  data-category="conversion"
-                  data-id=".scroll-to-science"
-                  data-label="Find out how"
-                  data-properties='{"action": "Find Out How - Home"}'
+                  className="d-inline-flex align-items-center sb-secondary-cta-button"
+                  
                 >
                   CLICK ME
                 </button>
