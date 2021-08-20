@@ -5,10 +5,13 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="/manifest.json" rel="manifest" />
-    
+
     <title>React App</title>
 
-    <link href="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" nonce="A/iUeRIaMqItu02DjyIlxcg0veHs6Q0Q+Ba+xbS/tIs=" rel="stylesheet" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" media="screen" href="css/style.css" />
     <link rel="stylesheet" media="screen" href="css/footer.css" />
 
@@ -17,9 +20,12 @@
     <link href="//fonts.googleapis.com/css?family=Lato:300,400,400i,700&amp;display=swap" rel="stylesheet" />
 
     <link rel="dns-prefetch" href="https://www.googletagmanager.com/" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Google Tag Manager -->
-   
+
     <!-- End Google Tag Manager -->
 
     <!--[if lt IE 9]>
@@ -31,7 +37,11 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M3B2X4" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
     <div id="root"></div>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

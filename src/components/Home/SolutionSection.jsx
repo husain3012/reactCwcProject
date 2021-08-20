@@ -1,5 +1,6 @@
 import React from "react";
-
+import { Router } from "react-router";
+import { Link } from "react-router-dom";
 const MobileCards = () => {
   return (
     <div className="row d-flex d-md-none wealth-offering-mobile">
@@ -39,13 +40,13 @@ const MobileCards = () => {
                   </div>
                 </div>
                 <div className="py-30">
-                  <a
+                  <Link
                     className="sb-blue-link trigger-event"
                     data-action="Offering Learn more"
                     data-category="conversion"
                     data-label="Learn more"
                     data-properties='{"action": "Offering Learn more", "offering": "core_mutual_fund_portfolio"}'
-                    href="/invest/investment-info/ala_carte?ref=home-offerings-core-mutual-fund"
+                    to="/solutions"
                     rel="nofollow"
                   >
                     Learn More
@@ -54,73 +55,7 @@ const MobileCards = () => {
                         <use xlinkHref="https://scripbox.com/assets/svg-sprite/home-plan-svg.svg#external-link-arrow"></use>
                       </svg>
                     </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="scripbox-offering-card mb-20 pointer-cursor">
-            <div className="home-offering-collapse-header" id="wealth-heading-1">
-              <div aria-controls="wealth-offering-1" aria-expanded="false" className="collapsed p-20 text-left" data-target="#wealth-offering-1" data-toggle="collapse">
-                <div className="d-flex flex-row pt-20 pb-10 align-items-start">
-                  <div className="offering-color-block" style={{ background: "rgba(81,110,215,1)" }}></div>
-                  <div className="d-flex">
-                    <svg height="52px" width="52px">
-                      <use xlinkHref="https://scripbox.com/assets/svg-sprite/home-plan-svg.svg#home-principal-protection"></use>
-                    </svg>
-                  </div>
-                  <p className="offering-title px-6 ma-0 w-100">Principal Protection &amp; Growth</p>
-                  <div className="arrow-down flex-shrink-1 px-12">
-                    <img src="/assets/linechart.svg" className="img-fluid donut-container" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div aria-labelledby="wealth-heading-1" className="collapse" data-parent="#wealth-offering-faq-accordion" id="wealth-offering-1">
-              <div className="pl-58">
-                <div className="pt-2">
-                  <p className="offering-description text-black m-0">Growth and safety of your large one-time investments</p>
-                </div>
-                <div className="offering-donut-chart-container px-16 pt-30">
-                  <div className="d-flex flex-row align-items-center">
-                    <div className="d-flex">
-                      <div className="carousel slide" data-interval="true" data-ride="false" id="sb-offering-wealth-carousel">
-                        <div className="carousel-inner">
-                          <div className="active carousel-item" data-interval="6000">
-                            <svg className="img-fluid donut-container">
-                              <use xlinkHref="https://scripbox.com/assets/svg-sprite/offering-donut-svg.svg#principal-protection-start"></use>
-                            </svg>
-                          </div>
-                          <div className="carousel-item" data-interval="6000">
-                            <img src="/assets/linechart.svg" className="img-fluid donut-container" />
-                          </div>
-                          <ol className="carousel-indicators sb-carousel-indicator">
-                            <li className="active" data-slide-to="0" data-target="#sb-offering-wealth-carousel"></li>
-                            <li data-slide-to="1" data-target="#sb-offering-wealth-carousel"></li>
-                          </ol>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="py-30">
-                  <a
-                    className="sb-blue-link trigger-event"
-                    data-action="Offering Learn more"
-                    data-category="conversion"
-                    data-label="Learn more"
-                    data-properties='{"action": "Offering Learn more", "offering": "principal_protection"}'
-                    href="/invest/investment-info/principal-protection?ref=home-offerings-principal-protection"
-                    rel="nofollow"
-                  >
-                    Learn More
-                    <div className="d-inline-block ml-10">
-                      <svg height="16px" width="16px">
-                        <use xlinkHref="https://scripbox.com/assets/svg-sprite/home-plan-svg.svg#external-link-arrow"></use>
-                      </svg>
-                    </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -612,13 +547,13 @@ const SolutionSection = () => {
         </div>
         <div className="row d-none d-md-flex scripbox-offering-cards-container">
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 align-self-stretch my-10">
-            <a
+            <Link
               className="w-100 h-100 card scripbox-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
               data-action="Offering Learn more"
               data-category="conversion"
               data-label="Learn more"
               data-properties='{"action": "Offering Learn more", "offering": "core_mutual_fund_portfolio"}'
-              href="/invest/investment-info/ala_carte?ref=home-offerings-core-mutual-fund"
+              to="/solutions"
               rel="nofollow"
             >
               <div className="card-body px-0">
@@ -642,76 +577,21 @@ const SolutionSection = () => {
               <div className="card-footer p-0">
                 <div className="offering-donut-chart-container pb-50">
                   <div className="d-flex flex-row align-items-center justify-content-center">
-                    <img src="/assets/piechart1.svg" className="img-fluid donut-container" />
+                    <img src="/assets/piechart1.svg" alt="svg" className="img-fluid donut-container" />
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 align-self-stretch my-10">
-            <a
-              className="w-100 h-100 card scripbox-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
-              data-action="Offering Learn more"
-              data-category="conversion"
-              data-label="Learn more"
-              data-properties='{"action": "Offering Learn more", "offering": "principal_protection"}'
-              href="/invest/investment-info/principal-protection?ref=home-offerings-principal-protection"
-              rel="nofollow"
-            >
-              <div className="card-body px-0">
-                <div className="pt-2 pl-6">
-                  <svg height="56px" width="56px">
-                    <use xlinkHref="https://scripbox.com/assets/svg-sprite/home-plan-svg.svg#home-principal-protection"></use>
-                  </svg>
-                </div>
-                <div className="feature-content-section">
-                  <div className="d-flex flex-row">
-                    <div className="d-flex">
-                      <div className="offering-color-block" style={{ background: "rgba(81,110,215,1)" }}></div>
-                    </div>
-                    <div className="d-flex flex-column px-16">
-                      <p className="offering-title">Principal Protection &amp; Growth</p>
-                      <p className="offering-description text-black m-0">Growth and safety of your large one-time investments</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="card-footer p-0">
-                <div className="offering-donut-chart-container pb-50">
-                  <div className="d-flex flex-row align-items-center justify-content-center">
-                    <div className="carousel slide" data-interval="true" data-ride="carousel" id="sb-offering-wealth-carousel-principal-protection-end">
-                      <div className="carousel-inner">
-                        <div className="carousel-item active" data-interval="6000">
-                          <svg className="donut-container">
-                            <use xlinkHref="https://scripbox.com/assets/svg-sprite/offering-donut-svg.svg#principal-protection-start"></use>
-                          </svg>
-                        </div>
-                        <div className="carousel-item" data-interval="6000">
-                          <svg className="donut-container">
-                            <use xlinkHref="https://scripbox.com/assets/svg-sprite/offering-donut-svg.svg#principal-protection-end"></use>
-                          </svg>
-                        </div>
-                        <ol className="carousel-indicators sb-carousel-indicator">
-                          <li className="active" data-slide-to="0" data-target="#sb-offering-wealth-carousel-principal-protection-end"></li>
-                          <li data-slide-to="1" data-target="#sb-offering-wealth-carousel-principal-protection-end" className=""></li>
-                        </ol>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3 align-self-stretch my-10">
-            <a
+            <Link
               className="w-100 h-100 card scripbox-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
               data-action="Offering Learn more"
               data-category="conversion"
               data-label="Learn more"
               data-properties='{"action": "Offering Learn more", "offering": "retire_confident"}'
-              href="/plans/retire-confident#fullscreen"
+              to="/solution2"
               rel="nofollow"
             >
               <div className="card-body px-0">
@@ -741,11 +621,11 @@ const SolutionSection = () => {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 align-self-stretch my-10">
-            <a
+            <Link
               className="w-100 h-100 card scripbox-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
               data-action="Offering Learn more"
               data-category="conversion"
@@ -781,11 +661,11 @@ const SolutionSection = () => {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 align-self-stretch my-10">
-            <a
+            <Link
               className="w-100 h-100 card scripbox-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
               data-action="Offering Learn more"
               data-category="conversion"
@@ -821,104 +701,8 @@ const SolutionSection = () => {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
-
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3 align-self-stretch my-10">
-            <a
-              className="w-100 h-100 card scripbox-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
-              data-action="Offering Learn more"
-              data-category="conversion"
-              data-label="Learn more"
-              data-properties='{"action": "Offering Learn more", "offering": "emergency_fund"}'
-              href="/invest/investment-info/liquid?ref=home-offerings-liquid"
-              rel="nofollow"
-            >
-              <div className="card-body px-0">
-                <div className="pt-2 pl-6">
-                  <svg height="56px" width="56px">
-                    <use xlinkHref="https://scripbox.com/assets/svg-sprite/home-plan-svg.svg#home-emergency-money"></use>
-                  </svg>
-                </div>
-                <div className="feature-content-section">
-                  <div className="d-flex flex-row">
-                    <div className="d-flex">
-                      <div className="offering-color-block" style={{ background: "rgba(74,151,60,1)" }}></div>
-                    </div>
-                    <div className="d-flex flex-column px-16">
-                      <p className="offering-title"> brandname Emergency Fund</p>
-                      <p className="offering-description text-black m-0">Stay prepared with liquid funds; better growth than savings accounts</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="card-footer p-0">
-                <div className="offering-donut-chart-container pb-50">
-                  <div className="d-flex flex-row align-items-center justify-content-center">
-                    <svg className="img-fluid donut-container">
-                      <use xlinkHref="https://scripbox.com/assets/svg-sprite/offering-donut-svg.svg#emergency-fund"></use>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3 align-self-stretch my-10">
-            <a
-              className="w-100 h-100 card scripbox-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
-              data-action="Offering Learn more"
-              data-category="conversion"
-              data-label="Learn more"
-              data-properties='{"action": "Offering Learn more", "offering": "smart_transfer_plan"}'
-              href="/invest/investment-info/smart-transfer-plan?ref=home-offerings-smart-transfer-plan"
-              rel="nofollow"
-            >
-              <div className="card-body px-0">
-                <div className="pt-2 pl-6">
-                  <svg height="56px" width="56px">
-                    <use xlinkHref="https://scripbox.com/assets/svg-sprite/home-plan-svg.svg#smart-transfer-plan"></use>
-                  </svg>
-                </div>
-                <div className="feature-content-section">
-                  <div className="d-flex flex-row">
-                    <div className="d-flex">
-                      <div className="offering-color-block" style={{ background: "rgba(183,122,10,1)" }}></div>
-                    </div>
-                    <div className="d-flex flex-column px-16">
-                      <p className="offering-title">Smart Transfer Plan</p>
-                      <p className="offering-description text-black m-0">Invest a lump sum in equity funds without worrying about volatility</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="card-footer p-0">
-                <div className="offering-donut-chart-container pb-50">
-                  <div className="d-flex flex-row align-items-center justify-content-center">
-                    <div className="carousel slide" data-interval="true" data-ride="carousel" id="sb-offering-wealth-carousel-smart-transfer-plan-end">
-                      <div className="carousel-inner">
-                        <div className="carousel-item active" data-interval="6000">
-                          <svg className="donut-container">
-                            <use xlinkHref="https://scripbox.com/assets/svg-sprite/offering-donut-svg.svg#smart-transfer-plan-start"></use>
-                          </svg>
-                        </div>
-                        <div className="carousel-item" data-interval="6000">
-                          <svg className="donut-container">
-                            <use xlinkHref="https://scripbox.com/assets/svg-sprite/offering-donut-svg.svg#smart-transfer-plan-end"></use>
-                          </svg>
-                        </div>
-                        <ol className="carousel-indicators sb-carousel-indicator">
-                          <li className="active" data-slide-to="0" data-target="#sb-offering-wealth-carousel-smart-transfer-plan-end"></li>
-                          <li data-slide-to="1" data-target="#sb-offering-wealth-carousel-smart-transfer-plan-end" className=""></li>
-                        </ol>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 align-self-stretch my-10">
             <a
               className="w-100 h-100 card scripbox-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
@@ -1039,7 +823,7 @@ const SolutionSection = () => {
             </a>
           </div>
         </div>
-       <MobileCards />
+        <MobileCards />
         <div className="row mt-48 d-none d-md-flex">
           <div className="col-12 text-center">
             <button

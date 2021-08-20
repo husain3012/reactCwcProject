@@ -1,6 +1,17 @@
 import React from 'react'
+import CustomAccordion from '../Accordion'
 
 const FaqSection = () => {
+
+
+
+  const faq = [
+    {
+    },{},{},{},{}
+
+  ]
+
+
     return (
         <div className="home-wealth-faq wealth-section-space wealth-faq-wrapper">
           <div className="container">
