@@ -3,8 +3,13 @@ import styled from "styled-components";
 import ReactPlayer from "react-player";
 import ScrollAnimation from "react-animate-on-scroll";
 import { Accordion } from "react-bootstrap";
-const SolutionsWrapper = styled.div`
-  max-width: 80%;
+import Solution1 from "./Solution1";
+import Solution2 from "./Solution2";
+import Solution3 from "./Solution3";
+import Solution4 from "./Solution4";
+
+export const SolutionsWrapper = styled.div`
+  max-width: 100ch;
   margin: auto;
   background-color: #f5f5f5;
   padding: 0 5%;
@@ -16,17 +21,16 @@ const SolutionsWrapper = styled.div`
 `;
 
 const ArticleHeading = styled.div`
-  background-color: #04009a;
-  background-color: #e1e8eb;
-  color: #343a40;
+  background-color: ${(props) => props.bgColor || "#e1e8eb"};
+  color: ${(props) => props.color || "#343a40"};
   padding: 2rem 5%;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
 `;
 const ArticleInfo = styled.div`
+  background: ${(props) => props.bgColor || "rgba(255, 193, 79, 0.7)"};
   border: 1px solid #47cbb0;
   display: flex;
-  background-color: #ffc107;
   border-radius: 5px;
   border-color: transparent;
   width: 80%;
@@ -34,58 +38,38 @@ const ArticleInfo = styled.div`
   transform: translateY(-50%);
   padding: 1rem;
   justify-content: center;
-  background: rgba(255, 193, 79, 0.7);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
 `;
-const ArticleBody = styled.div`
+
+export const ArticleBody = styled.div`
   margin: 1rem;
   padding: 2rem 0;
 `;
-const ReactPlayerWrapper = styled.div`
+export const ReactPlayerWrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
   margin: 3em auto;
 `;
 
-
 const Solution = (props) => {
+  console.log(props);
   return (
     <div>
       <SolutionsWrapper>
         <ScrollAnimation animateIn="fadeIn">
-          <ArticleHeading>
-            <h1>Lorem Ipsum </h1>
+          <ArticleHeading color={props.heading.color} bgColor={props.heading.bgColor}>
+            <h1>{props.heading.title}</h1>
           </ArticleHeading>
-          <ArticleInfo> 5 years | 10% growth | Lorem Ipsum </ArticleInfo>
+          <ArticleInfo bgColor={props.heading.infoBg}>{props.heading.info}</ArticleInfo>
         </ScrollAnimation>
 
-        <ArticleBody>
-          <ScrollAnimation animateIn="fadeIn">
-            <h2>Hello WOrld</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga
-              praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt
-              quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed
-              quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit
-            </p>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeIn">
-            <ReactPlayerWrapper>
-              <ReactPlayer className="m react-player" url="https://youtu.be/p7HKvqRI_Bo" />
-            </ReactPlayerWrapper>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeIn">
-            <h3>Conclusion</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga
-              praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt
-              quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed
-              quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit
-            </p>
-          </ScrollAnimation>
-        </ArticleBody>
+        {props.bodyHtml.map((item) => (
+          <ArticleBody>
+            {item} <hr />
+          </ArticleBody>
+        ))}
       </SolutionsWrapper>
 
       <SolutionsWrapper>
@@ -112,5 +96,7 @@ const Solution = (props) => {
     </div>
   );
 };
+
+export {Solution1, Solution2, Solution3, Solution4};
 
 export default Solution;

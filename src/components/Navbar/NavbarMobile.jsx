@@ -72,12 +72,20 @@ const NavBtnLinkFirst = styled(Link)`
   outline: none;
   cursor: pointer;
   text-decoration: none;
-  background-color: rgba(71, 203, 176, 1);
-  background-image: linear-gradient(90deg, transparent 34%, rgba(0, 171, 255, 1) 97%);
+  background-size: 300% 100%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
   &:hover {
-    color: #012443;
-    background-image: rgba(71, 203, 176, 1);
-    transition: all 0.3s ease-in-out;
+    color: black;
+    background-position: 100% 0;
+    moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
   }
 `;
 
