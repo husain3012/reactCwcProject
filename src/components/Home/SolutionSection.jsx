@@ -254,7 +254,7 @@ const SolutionSection = () => {
         <div className="row mt-48 d-none d-md-flex">
           <div className="col-12 text-center">
             <button
-              className="align-items-center sb-secondary-cta-button large-btn more-investment-objectives-button unset-transform trigger-event"
+              className="align-items-center sb-secondary-cta-button btn large-btn more-investment-objectives-button unset-transform trigger-event"
               data-action="More investment objectives"
               data-category="conversion"
               data-label="More investment objectives"

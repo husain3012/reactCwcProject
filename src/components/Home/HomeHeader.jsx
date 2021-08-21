@@ -20,7 +20,7 @@ function HomeHeader() {
               </div>
               <div className="mt-3 mb-3">
                 <button
-                  className="d-inline-flex align-items-center sb-secondary-cta-button"
+                  className="d-inline-flex align-items-center btn sb-secondary-cta-button"
                   
                 >
                   CLICK ME
