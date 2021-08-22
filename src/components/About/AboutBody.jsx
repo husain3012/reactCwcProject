@@ -4,16 +4,17 @@ import AboutUsCarousel from "./AboutUsCarousel";
 import AboutUsText from "./AboutUsText";
 import MediaQuery from "react-responsive";
 const AboutWrapper = styled.div`
-  padding: 2rem 1rem;
+  padding: 80px 1rem;
   background-color: #4468e4;
   background-image: url("/assets/wave.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  ${"" /* border-bottom-left-radius: 100px; */}
-  border-bottom-right-radius: 50px;
-  ${"" /* margin-bottom: 100px; */}
+  ${'' /* border-bottom-right-radius: 50px; */}
   max-width: 100%;
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+  }
 `;
 
 const AboutHeading = styled.div`
@@ -39,7 +40,8 @@ const AboutHeading = styled.div`
 const AboutBody = () => {
   return (
     <>
-      <AboutWrapper className="row">
+      <AboutWrapper>
+      <div className="row">
         <div className="col-md-6 col-12">
           <AboutHeading>
             <h1>About Us</h1>
@@ -52,6 +54,7 @@ const AboutBody = () => {
         </div>
         <div className="col-md-6 col-12">
           <AboutUsCarousel />
+        </div>
         </div>
       </AboutWrapper>
       <MediaQuery maxWidth={768}>
