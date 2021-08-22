@@ -5,7 +5,7 @@ import GoogleButton from "react-google-button";
 import { useMediaQuery } from "react-responsive";
 
 import "./Login.css";
-const Card = styled.div`
+export const Card = styled.div`
   margin: auto;
   margin-top: 10%;
   margin-bottom: -100px;

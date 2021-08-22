@@ -14018,20 +14018,7 @@ body {
   margin-top: 80px;
 }
 
-#wealth-home .wealth-faq-wrapper .arrow-down,
-#wealth-home .wealth-faq-wrapper .arrow-up {
-  display: inline-block;
-  overflow: hidden;
-  text-align: left;
-}
 
-#wealth-home .arrow-down {
-  transform: rotate(180deg);
-}
-
-#wealth-home .collapsed .arrow-down {
-  transform: rotate(0deg);
-}
 
 #wealth-home .cararra-background {
   background: #f1f1ea;
