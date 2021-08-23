@@ -1,4 +1,5 @@
 import { getDefaultNormalizer } from "@testing-library/react"
+import { Link } from "react-router-dom";
 
 function Footer(){
     return(
@@ -8,10 +9,10 @@ function Footer(){
   	 		<div className="footer-col">
   	 			<h4>Sitesoch</h4>
   	 			<ul>
-  	 				<li><a href="/">Home</a></li>
-  	 				<li><a href="/">About</a></li>
-  	 				<li><a href="/">Pricing</a></li>
-  	 				<li><a href="/">Privacy Policy</a></li>
+  	 				<li><Link to="/">Home</Link></li>
+  	 				<li><Link to="/about">About</Link></li>
+  	 				<li><Link to="/">Pricing</Link></li>
+  	 				<li><Link to="/privacy_policy">Privacy Policy</Link></li>
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">

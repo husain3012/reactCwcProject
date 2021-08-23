@@ -9,6 +9,7 @@ import About from "../pages/About";
 import Contact from "../pages/Contact";
 import * as Solutions from "./Solutions/Solution";
 import GoToTop from "./GoToTop";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
 // Colors:
 // Purple: #5C05C4
 // Athens gray: #E6E3ED
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/signup" component={Login} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact_us" component={Contact} />
+          <Route exact path="/privacy_policy" component={PrivacyPolicy} />
           <Route exact path="/solutions/solution1" component={Solutions.Solution1} />
           <Route exact path="/solutions/solution2" component={Solutions.Solution2} />
           <Route exact path="/solutions/solution3" component={Solutions.Solution3} />
