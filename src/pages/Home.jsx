@@ -23,6 +23,7 @@ function Home() {
         <HomeBlogSection />
         <CtaSection />
         <FaqSection />
+
       </div>
     </div>
   );

@@ -10,6 +10,7 @@ import Contact from "../pages/Contact";
 import * as Solutions from "./Solutions/Solution";
 import GoToTop from "./GoToTop";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
+import Blog from "../pages/Blog";
 // Colors:
 // Purple: #5C05C4
 // Athens gray: #E6E3ED
@@ -35,6 +36,8 @@ function App() {
           <Route exact path="/solutions/solution2" component={Solutions.Solution2} />
           <Route exact path="/solutions/solution3" component={Solutions.Solution3} />
           <Route exact path="/solutions/solution4" component={Solutions.Solution4} />
+          <Route exact path="/blogs/1" component={Blog} />
+
 
         </Switch>
         <GoToTop />
