@@ -36,7 +36,7 @@ function App() {
           <Route exact path="/solutions/solution2" component={Solutions.Solution2} />
           <Route exact path="/solutions/solution3" component={Solutions.Solution3} />
           <Route exact path="/solutions/solution4" component={Solutions.Solution4} />
-          <Route exact path="/blogs/1" component={Blog} />
+          <Route exact path="/blogs/:id" component={Blog} />
 
 
         </Switch>

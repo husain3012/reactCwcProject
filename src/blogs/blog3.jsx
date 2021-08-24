@@ -44,6 +44,6 @@ cover: "https://images.unsplash.com/photo-1621609764095-b32bbe35cf3a?ixid=MnwxMj
 date: "21/3/20",
 heading: "Yet another blog",
 subHeading: "This is awesome",
-body: blogContent,
+content: blogContent,
 }
 export default blog3

@@ -63,7 +63,7 @@ const RecentBlogs = () => {
           </Link>
         </div>
         <div className="col-md-4 col-12">
-        <Link style={{ textDecoration: "none" }} to="/blogs/1">
+        <Link style={{ textDecoration: "none" }} to="/blogs/2">
         <BlogCard 
             cover={blog2.cover}
             heading={blog2.heading} 
@@ -72,7 +72,7 @@ const RecentBlogs = () => {
           </Link>
         </div>
         <div className="col-md-4 col-12">
-        <Link style={{ textDecoration: "none" }} to="/blogs/1">
+        <Link style={{ textDecoration: "none" }} to="/blogs/3">
         <BlogCard 
             cover={blog3.cover}
             heading={blog3.heading} 
