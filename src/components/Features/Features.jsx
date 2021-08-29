@@ -24,7 +24,9 @@ const responsive = {
   },
 };
 
-const FeaturesContainer = styled.div``;
+const FeaturesContainer = styled.div`
+padding: 2rem 0;
+`;
 
 const Features = () => {
   return (
@@ -49,7 +51,7 @@ const Features = () => {
           centerMode={false}
         >
           {FeaturesList.map((feature) => (
-            <FeatureCard {...feature} />
+          <FeatureCard {...feature} />
           ))}
         </Carousel>
       </FeaturesContainer>
