@@ -11,25 +11,27 @@ import * as Solutions from "./Solutions/Solution";
 import GoToTop from "./GoToTop";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import Blog from "../pages/Blog";
+import Calculators from "../pages/Calculators";
 // Colors:
 // Purple: #5C05C4
 // Athens gray: #E6E3ED
 // Greenish: #47CBB0
 // Trout: #4E545E
 
-
-
 function App() {
   return (
     <Router>
-   
-      
       <Navbar />
       <PageWrapper>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/signup" component={Login} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/calculator/retirement" component={Calculators} />
+          <Route exact path="/calculator/emergency" component={Calculators} />
+          <Route exact path="/calculator/wedding" component={Calculators} />
+
+
           <Route exact path="/contact_us" component={Contact} />
           <Route exact path="/privacy_policy" component={PrivacyPolicy} />
           <Route exact path="/solutions/solution1" component={Solutions.Solution1} />
@@ -37,14 +39,11 @@ function App() {
           <Route exact path="/solutions/solution3" component={Solutions.Solution3} />
           <Route exact path="/solutions/solution4" component={Solutions.Solution4} />
           <Route exact path="/blogs/:id" component={Blog} />
-
-
         </Switch>
         <GoToTop />
       </PageWrapper>
 
       <Footer />
-   
     </Router>
   );
 }

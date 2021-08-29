@@ -28,13 +28,7 @@ const TestimonialSection = () => {
                     <div className="col-12 col-md-6 col-lg-4 text-center text-md-left">
                       <div
                         className="wealth-customer-image trigger-event"
-                        data-action="Home Customer testimonial"
-                        data-category="conversion"
-                        data-label="Customer image click"
-                        data-properties='{"action": "Home Customer testimonial", "customer_name": "Prasad Ethireddy"}'
-                        data-target="#wealth-video-testimonial"
-                        data-toggle="modal"
-                        data-video=""
+                      
                         type="button"
                       >
                         <div className= "testimonial-carousel-image-wrapper">
@@ -55,17 +49,10 @@ const TestimonialSection = () => {
                     <div className="col-12 col-md-6 col-lg-4 text-center text-md-left">
                       <div
                         className="wealth-customer-image trigger-event"
-                        data-action="Home Customer testimonial"
-                        data-category="conversion"
-                        data-label="Customer image click"
-                        data-properties='{"action": "Home Customer testimonial", "customer_name": "Srinivasan Soundararajan"}'
-                        data-target="#wealth-video-testimonial"
-                        data-toggle="modal"
-                        data-video="https://www.youtube.com/embed/P9tkiuVINbk"
                         type="button"
                       >
                         <div className= "testimonial-carousel-image-wrapper">
-                        <img className="testimonial-carousel-image img-fluid" alt=" brandname customer Chitra Iyengar" src="/assets/testimonial3.jpg" />
+                        <img className="testimonial-carousel-image img-fluid" alt=" brandname customer Chitra Iyengar" src="/assets/testimonial2.jpg" />
                         </div>
                       </div>
                     </div>
@@ -82,13 +69,6 @@ const TestimonialSection = () => {
                     <div className="col-12 col-md-6 col-lg-4 text-center text-md-left">
                       <div
                         className="wealth-customer-image trigger-event"
-                        data-action="Home Customer testimonial"
-                        data-category="conversion"
-                        data-label="Customer image click"
-                        data-properties='{"action": "Home Customer testimonial", "customer_name": "Chitra Iyengar"}'
-                        data-target="#wealth-video-testimonial"
-                        data-toggle="modal"
-                        data-video="https://www.youtube.com/embed/kRUHlqcpm1Y"
                         type="button"
                       >
                       <div className= "testimonial-carousel-image-wrapper">

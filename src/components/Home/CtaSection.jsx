@@ -14,7 +14,6 @@ const CtaSection = () => {
               Get started with
               <span className="wealth-streak-word">
                 ease!
-                <img className="img-fluid" alt="Orange streak" src="https://asset10.scripbox.com/assets/invest/wealth-home/orange-streak-71624a439a206dbb0590dd9d44431b81456c7d257725df7a79a417c88a6f2c97.png" />
               </span>
             </h2>
             <div className="wealth-section-description my-26">

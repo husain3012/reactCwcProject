@@ -3,7 +3,7 @@ import RecentBlogs from "../Blog/RecentBlogs";
 
 const HomeBlogSection = () => {
   return (
-    <div className="wealth-section-space home-blog-section">
+    <div className="wealth-section-space">
       <div className="container">
         <div className="row d-flex">
           <div className="col-12">

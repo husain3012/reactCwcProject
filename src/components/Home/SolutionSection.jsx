@@ -10,7 +10,7 @@ const MobileCardAccordion = (props) => {
     console.log(isOpen);
   };
   return (
-    <div className="scripbox-offering-card mb-20 pointer-cursor">
+    <div className="brand-offering-card mb-20 pointer-cursor">
       <div onClick={toggleOpen} className="home-offering-collapse-header" id="wealth-heading-0">
         <div aria-controls="wealth-offering-0" aria-expanded="true" className="p-20 text-left" data-target="#wealth-offering-0" data-toggle="collapse">
           <div className="d-flex flex-row pt-20 pb-10 align-items-start">
@@ -82,7 +82,7 @@ const MobileCards = () => {
 
 const SolutionSection = () => {
   return (
-    <div className="wealth-section-space wealth-scripbox-offerings">
+    <div className="wealth-section-space wealth-offerings">
       <div className="container">
         <div className="row d-flex">
           <div className="col-12">
@@ -91,10 +91,10 @@ const SolutionSection = () => {
             <p className="wealth-section-description">Go after all that matters to you.</p>
           </div>
         </div>
-        <div className="row d-none d-md-flex scripbox-offering-cards-container">
+        <div className="row d-none d-md-flex service-offering-cards-container">
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 align-self-stretch my-10">
             <Link
-              className="w-100 h-100 card scripbox-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
+              className="w-100 h-100 card brand-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
               data-action="Offering Learn more"
               data-category="conversion"
               data-label="Learn more"
@@ -132,7 +132,7 @@ const SolutionSection = () => {
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 align-self-stretch my-10">
             <Link
-              className="w-100 h-100 card scripbox-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
+              className="w-100 h-100 card brand-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
               data-action="Offering Learn more"
               data-category="conversion"
               data-label="Learn more"
@@ -172,7 +172,7 @@ const SolutionSection = () => {
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 align-self-stretch my-10">
             <Link
-              className="w-100 h-100 card scripbox-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
+              className="w-100 h-100 card brand-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
               data-action="Offering Learn more"
               data-category="conversion"
               data-label="Learn more"
@@ -212,7 +212,7 @@ const SolutionSection = () => {
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 align-self-stretch my-10">
             <Link
-              className="w-100 h-100 card scripbox-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
+              className="w-100 h-100 card brand-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
               data-action="Offering Learn more"
               data-category="conversion"
               data-label="Learn more"

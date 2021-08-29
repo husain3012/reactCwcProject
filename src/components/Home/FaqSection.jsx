@@ -1,5 +1,4 @@
 import React from "react";
-import CustomAccordion from "../Accordion";
 import FaqComponent from "../Faq/FaqComponent";
 
 const FaqSection = () => {

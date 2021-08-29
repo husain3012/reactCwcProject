@@ -14,7 +14,7 @@ function Home() {
       <div id="get-started">
         <div className="wealth-header-image mobile-wealth-header"></div>
         <HomeHeader />
-        <ScienceSection />
+        {/* <ScienceSection /> */}
         <SolutionSection />
         <TrustSection />
         <ServicesSection />
