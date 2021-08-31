@@ -72,11 +72,11 @@ const RetirementCalculator = (props) => {
 
       <FieldContainer>
         <h3>Inflation Rate ({inflationRate}%)</h3>
-        <SliderInput setValueHandeler={setInflationRate} min={0} max={100} />
+        <SliderInput setValueHandeler={setInflationRate} step={0.001} min={0} max={10} />
       </FieldContainer>
       <FieldContainer>
         <h3>Annual Rate of Return ({annualReturn}%)</h3>
-        <SliderInput setValueHandeler={setAnnualReturn} min={0} max={100} />
+        <SliderInput setValueHandeler={setAnnualReturn} step={0.001} min={0} max={10} />
       </FieldContainer>
       <FieldContainer>
         <h3>Retirement Savings till Date</h3>
@@ -84,7 +84,7 @@ const RetirementCalculator = (props) => {
       </FieldContainer>
       <FieldContainer>
         <h3>Return on Investments ({roi}%):</h3>
-        <SliderInput setValueHandeler={setRoi} min={0} max={100} />
+        <SliderInput setValueHandeler={setRoi} step={0.001} min={0} max={10} />
       </FieldContainer>
       <FieldContainer>
         <CalculateButton>Calculate</CalculateButton>

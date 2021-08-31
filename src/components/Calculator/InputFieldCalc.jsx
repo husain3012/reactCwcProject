@@ -13,11 +13,15 @@ export const FieldContainer = styled.div`
   h3 {
     color: #11052c;
     font-size: 1.3rem;
+    width: 50%;
   }
   @media (max-width: 768px) {
     flex-direction: column;
-
     max-width: 90vw;
+    h3 {
+    text-align: center;
+    width: 100%;
+  }
   }
 `;
 

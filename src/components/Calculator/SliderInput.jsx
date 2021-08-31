@@ -70,7 +70,7 @@ const handleChange = (event, newValue) => {
     <SliderContainer>
       <span>{props.min}</span>
       <SlideElementContainer>
-      <PrettoSlider value={props.value} onChange={handleChange} defaultValue={props.defaultValue || 50} getAriaValueText={valuetext} aria-labelledby="discrete-slider" valueLabelDisplay="auto"   min={props.min} max={props.max} />
+      <PrettoSlider value={props.value} step={props.step} onChange={handleChange} defaultValue={props.defaultValue || 50} getAriaValueText={valuetext} aria-labelledby="discrete-slider" valueLabelDisplay="auto"   min={props.min} max={props.max} />
       </SlideElementContainer>
       <span>{props.max}</span>
     </SliderContainer>
