@@ -7,6 +7,7 @@ const CardContainer = styled(Link)`
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: auto;
   padding: 25px;
   background-color: ${(props) => props.color || "#035397"};
@@ -25,8 +26,18 @@ const CardContainer = styled(Link)`
   }
 
   img {
-    align-self: flex-end;
+    margin-top: auto;
     max-width: 100%;
+  }
+  button {
+    margin-top: auto;
+    border-style: none;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  @media (max-width: 768px) {
+    max-width: 90%;
   }
 `;
 
@@ -40,6 +51,7 @@ const FeatureCard = (props) => {
       <h1>{props.heading}</h1>
       <p>{props.text}</p>
       <img alt="img" src={props.image} />
+      <button>Calculate</button>
     </CardContainer>
   );
 };
