@@ -22,11 +22,19 @@ const KnowMore = styled(Link)`
 
 const About = styled.div`
   background-color: #eee;
+  background-image:url("/assets/wave2.svg");
+  min-height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 20px;
   font-size: 1.2rem;
   display: flex;
   justify-content: center;
   & p {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
     max-width: 100ch;
   }
 `;
