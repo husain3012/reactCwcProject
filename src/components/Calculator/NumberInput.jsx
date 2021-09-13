@@ -30,7 +30,7 @@ const NumberInput = (props) => {
   return (
     <>
       <FloatingLabelResp label={props.label}>
-        <NumericInput  onChange={props.handleInput} value={props.value} placeholder="Age" type="number" />
+        <NumericInput  onChange={props.handleInput} value={props.value} placeholder={props.label} type="number" />
       </FloatingLabelResp>
     </>
   );

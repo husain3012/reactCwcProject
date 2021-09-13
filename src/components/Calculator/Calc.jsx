@@ -16,7 +16,7 @@ const CalculatorContainer = styled.div`
   width: fit-content;
 `;
 
-const RetirementCalculator = (props) => {
+const EmiCalculator = (props) => {
   const [monthlyExpense, setMonthlyExpense] = useState();
   const [ageRange, setAgeRange] = useState([70, 80]);
   const [inflationRate, setInflationRate] = useState();
@@ -93,4 +93,4 @@ const RetirementCalculator = (props) => {
   );
 };
 
-export default RetirementCalculator;
+export default EmiCalculator;

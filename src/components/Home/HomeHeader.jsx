@@ -1,7 +1,6 @@
-
 function HomeHeader() {
   return (
-    <div className="home-header turquoise-background">
+    <div className="home-header wave-background">
       <div className="container">
         <div className="row d-flex">
           <div className="col-12 col-md-6 d-flex align-items-stretch header-content-wrapper">
@@ -10,7 +9,7 @@ function HomeHeader() {
                 <h1 className="header-wealth-title">
                   LOREM IPSUM
                   <div className="highlighted-word-wrapper">
-                    <div  className="static-text-box child spin-to-top">SUBHEADING 1</div>
+                    <div className="static-text-box child spin-to-top">SUBHEADING 1</div>
                   </div>
                 </h1>
                 <div className="header-wealth-description mb-24 header-wealth-description-text">
@@ -19,12 +18,7 @@ function HomeHeader() {
                 </div>
               </div>
               <div className="mt-3 mb-3">
-                <button
-                  className="d-inline-flex align-items-center btn sb-secondary-cta-button"
-                  
-                >
-                  CLICK ME
-                </button>
+                <button className="d-inline-flex align-items-center btn sb-secondary-cta-button">CLICK ME</button>
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import React from "react";
-import RetirementCalculator from "../components/Calculator/RetirementCalculator";
+import EmiCalculator from "../components/Calculator/EMI";
 import styled from "styled-components";
-const CaluculatorPage = styled.div`
+const CalculatorPage = styled.div`
   padding: 25px 0;
   background: url(/assets/calcWave.svg) no-repeat;
   background-size: cover;
@@ -14,13 +14,12 @@ const CaluculatorPage = styled.div`
   }
 `;
 
-const Calculators = () => {
+export const EMI = (props) => {
   return (
-    <CaluculatorPage>
-      <h1>Retirement Calculator</h1>
-      <RetirementCalculator />
-    </CaluculatorPage>
+    <CalculatorPage>
+      <h1>EMI Calculator</h1>
+      <EmiCalculator />
+    </CalculatorPage>
   );
 };
 
-export default Calculators;

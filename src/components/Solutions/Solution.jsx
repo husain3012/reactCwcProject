@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import ReactPlayer from "react-player";
 import ScrollAnimation from "react-animate-on-scroll";
 import { Accordion } from "react-bootstrap";
 import Solution1 from "./Solution1";

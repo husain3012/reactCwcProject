@@ -1,3 +1,10 @@
+:root {
+  --dark-blue: #001e6c;
+  --mid-blue: #035397;
+  --light-blue: #5089c6;
+  --orange: #ffaa4c;
+}
+
 .about-us-carousel {
   margin: auto;
   max-width: 60ch;

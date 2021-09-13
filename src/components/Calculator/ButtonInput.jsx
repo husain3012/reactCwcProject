@@ -9,7 +9,7 @@ const ButtonContainer = styled.div`
 `;
 const Button = styled.button`
   box-shadow: 0;
-  border-syle: solid;
+  border-style: solid;
   border-width: 1px;
   padding: 10px;
   margin: 0 10px;
@@ -36,7 +36,7 @@ const ButtonInputContainer = (props) => {
   return (
     <ButtonContainer >
       {props.values.map((value, index) => {
-        return <ButtonInput getValue={props.getValue} setValue={props.setValueHandeler} key={index} text={value.text} value={value.value} />;
+        return <ButtonInput getValue={props.getValue} setValue={props.setValueHandler} key={index} text={value.text} value={value.value} />;
       })}
     </ButtonContainer>
   );

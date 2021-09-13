@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const CtaSection = () => {
   return (
-    <div className="turquoise-background wealth-section-space get-started-with-ease">
+    <div className="wave-background wealth-section-space get-started-with-ease">
       <div className="container">
         <div className="row d-flex">
           <div className="col-12 col-md-6">

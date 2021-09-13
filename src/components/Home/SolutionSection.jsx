@@ -59,21 +59,9 @@ const MobileCards = () => {
     <div className="row d-flex d-md-none wealth-offering-mobile">
       <div className="col-12">
         <div className="accordion" id="wealth-offering-faq-accordion" itemProp="mainEntity" itemScope="" itemType="https://schema.org/Question">
-          <MobileCardAccordion 
-          heading="Core Mutual Fund Portfolio" 
-          subheading="Inflation-beating growth with equity funds"
-          link="/solutions/solution1"
-           />
-            <MobileCardAccordion 
-          heading="Retire Confident" 
-          subheading="hoicpaoc ao ihdi k jlka po a"
-          link="/solutions/solution2"
-           />
-            <MobileCardAccordion 
-          heading="Lorem Ipsum1" 
-          subheading="hoicpaoc ao ihdi k jlka po a"
-          link="/solutions/solution3"
-           />
+          <MobileCardAccordion heading="Mutual Funds" subheading="Inflation-beating growth with equity funds" link="/solutions/solution1" />
+          <MobileCardAccordion heading="Loan" subheading="hoicpaoc ao ihdi k jlka po a" link="/solutions/solution2" />
+          <MobileCardAccordion heading="Insurance" subheading="hoicpaoc ao ihdi k jlka po a" link="/solutions/solution3" />
         </div>
       </div>
     </div>
@@ -114,7 +102,7 @@ const SolutionSection = () => {
                       <div className="offering-color-block" style={{ background: "rgba(183,122,10,1)" }}></div>
                     </div>
                     <div className="d-flex flex-column px-16">
-                      <p className="offering-title">Core Mutual Fund Portfolio</p>
+                      <p className="offering-title">Mutual Funds</p>
                       <p className="offering-description text-black m-0">Inflation-beating growth with equity funds</p>
                     </div>
                   </div>
@@ -136,7 +124,6 @@ const SolutionSection = () => {
               data-action="Offering Learn more"
               data-category="conversion"
               data-label="Learn more"
-              data-properties='{"action": "Offering Learn more", "offering": "retire_confident"}'
               to="/solutions/solution2"
               rel="nofollow"
             >
@@ -152,7 +139,7 @@ const SolutionSection = () => {
                       <div className="offering-color-block" style={{ background: "rgba(175,97,40,1)" }}></div>
                     </div>
                     <div className="d-flex flex-column px-16">
-                      <p className="offering-title">Retire Confident</p>
+                      <p className="offering-title">Loan</p>
                       <p className="offering-description text-black m-0">Plan and invest for hassle-free sunset years</p>
                     </div>
                   </div>
@@ -192,7 +179,7 @@ const SolutionSection = () => {
                       <div className="offering-color-block" style={{ background: "rgba(183,122,10,1)" }}></div>
                     </div>
                     <div className="d-flex flex-column px-16">
-                      <p className="offering-title">Cash Management</p>
+                      <p className="offering-title">Insurance</p>
                       <p className="offering-description text-black m-0">Grow your "extra" cash with Liquid funds</p>
                     </div>
                   </div>
@@ -203,46 +190,6 @@ const SolutionSection = () => {
                   <div className="d-flex flex-row align-items-center justify-content-center">
                     <svg className="img-fluid donut-container">
                       <use xlinkHref="https://scripbox.com/assets/svg-sprite/offering-donut-svg.svg#cash-management"></use>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          </div>
-
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3 align-self-stretch my-10">
-            <Link
-              className="w-100 h-100 card brand-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
-              data-action="Offering Learn more"
-              data-category="conversion"
-              data-label="Learn more"
-              data-properties='{"action": "Offering Learn more", "offering": "tax_saver_plan"}'
-              to="/solutions/solution4"
-              rel="nofollow"
-            >
-              <div className="card-body px-0">
-                <div className="pt-2 pl-6">
-                  <svg height="56px" width="56px">
-                    <use xlinkHref="https://scripbox.com/assets/svg-sprite/home-plan-svg.svg#home-tax-saver-plan"></use>
-                  </svg>
-                </div>
-                <div className="feature-content-section">
-                  <div className="d-flex flex-row">
-                    <div className="d-flex">
-                      <div className="offering-color-block" style={{ background: "rgba(111,161,225,1)" }}></div>
-                    </div>
-                    <div className="d-flex flex-column px-16">
-                      <p className="offering-title">Tax Saver</p>
-                      <p className="offering-description text-black m-0">Save taxes AND grow your wealth with ELSS funds</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="card-footer p-0">
-                <div className="offering-donut-chart-container pb-50">
-                  <div className="d-flex flex-row align-items-center justify-content-center">
-                    <svg className="img-fluid donut-container">
-                      <use xlinkHref="https://scripbox.com/assets/svg-sprite/offering-donut-svg.svg#tax-saver"></use>
                     </svg>
                   </div>
                 </div>
