@@ -1,22 +1,30 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { LandingCard, HeadingLarge } from "../components/UI/LandingCard/LandingCard";
+import BlogLandingCard from "../components/UI/LandingCard/BlogLandingCard";
 import { SectionDark, SectionLight } from "../components/UI/Section";
 import styled from "styled-components";
 const KnowMore = styled(Link)`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  text-decoration: none;
   & img {
+    padding: 10px 0;
     margin: 0 auto;
     max-width: 300px;
     max-height: 300px;
     transition: all 0.5s ease-in-out;
   }
-  & img:hover {
-    transform: scale(1.1);
+ 
+  @media (max-width: 768px) {
+    & img {
+      
+    margin: 0 auto;
+    max-width: 120px;
+    max-height: 120px;
     transition: all 0.5s ease-in-out;
+  }
   }
 `;
 
@@ -41,12 +49,9 @@ const About = styled.div`
 const Insurance = () => {
   return (
     <div>
-      <LandingCard background="url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80')">
-        <HeadingLarge>
-          <h1>Insurance</h1>
-          <p>As a reliable company, we work with consistently offering these services to fulfil your financial needs</p>
-        </HeadingLarge>
-      </LandingCard>
+      <BlogLandingCard heading="Insurance" subHeading="As a reliable company, we work with consistently offering these services to fulfil your financial needs" cover="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" />
+       
+     
 
       <About>
         <p>
@@ -73,11 +78,15 @@ const Insurance = () => {
         </div>
         <KnowMore to="/calculator/emi">
           <img src="/assets/talk-to-expert.png" alt="home" />
+          <button className="btn sb-secondary-cta-button">Know More</button>
+
         </KnowMore>
       </SectionLight>
       <SectionDark>
         <KnowMore to="/calculator/emi">
           <img src="/assets/talk-to-expert.png" alt="home" />
+          <button className="btn sb-secondary-cta-button">Know More</button>
+
         </KnowMore>
         <div>
           <h1>GMC ( Group medical policy ) </h1>
@@ -99,6 +108,8 @@ const Insurance = () => {
         </div>
         <KnowMore to="/calculator/emi">
           <img src="/assets/talk-to-expert.png" alt="home" />
+          <button className="btn sb-secondary-cta-button">Know More</button>
+
         </KnowMore>
       </SectionLight>
     </div>

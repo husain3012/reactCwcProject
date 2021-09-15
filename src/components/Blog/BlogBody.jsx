@@ -1,5 +1,4 @@
 import React from 'react'
-import BlogHeader from './BlogHeader'
 import BlogText from './BlogText'
 import './Blog.css'
 const BlogBody = (props) => {

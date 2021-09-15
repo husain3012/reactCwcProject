@@ -1,22 +1,30 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { LandingCard, HeadingLarge } from "../components/UI/LandingCard/LandingCard";
+import BlogLandingCard from "../components/UI/LandingCard/BlogLandingCard";
 import { SectionDark, SectionLight } from "../components/UI/Section";
 import styled from "styled-components";
-const ImgContainer = styled(Link)`
+const KnowMore = styled(Link)`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  text-decoration: none;
   & img {
+    padding: 10px 0;
     margin: 0 auto;
     max-width: 300px;
     max-height: 300px;
     transition: all 0.5s ease-in-out;
   }
-  & img:hover {
-    transform: scale(1.1);
+ 
+  @media (max-width: 768px) {
+    & img {
+      
+    margin: 0 auto;
+    max-width: 120px;
+    max-height: 120px;
     transition: all 0.5s ease-in-out;
+  }
   }
 `;
 const About = styled.div`
@@ -40,12 +48,11 @@ const About = styled.div`
 const Loans = () => {
   return (
     <div>
-      <LandingCard background="url('https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80')">
-        <HeadingLarge>
-          <h1>Loans</h1>
-          <p>As a reliable company, we work with consistently offering these services to fulfil your financial needs</p>
-        </HeadingLarge>
-      </LandingCard>
+      <BlogLandingCard
+        heading="Loans"
+        subHeading="As a reliable company, we work with consistently offering these services to fulfil your financial needs"
+        cover="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+      />
 
       <About>
         <p>
@@ -69,14 +76,17 @@ const Loans = () => {
             </ul>
           </p>
         </div>
-        <ImgContainer to="/calculator/emi">
+        <KnowMore to="/calculator/emi">
           <img src="/assets/home.png" alt="home" />
-        </ImgContainer>
+          <button className="btn sb-secondary-cta-button">Know More</button>
+        </KnowMore>
       </SectionLight>
       <SectionDark>
-        <ImgContainer to="/calculator/emi">
+        <KnowMore to="/calculator/emi">
           <img src="/assets/home.png" alt="home" />
-        </ImgContainer>
+          <button className="btn sb-secondary-cta-button">Know More</button>
+
+        </KnowMore>
         <div>
           <h1>Loan Against Property</h1>
           <p>
@@ -101,15 +111,19 @@ const Loans = () => {
             meet your every business need. We bring to you loan solutions that perfectly fit your every business need.
           </p>
         </div>
-        <ImgContainer to="/calculator/emi">
+        <KnowMore to="/calculator/emi">
           <img src="/assets/home.png" alt="home" />
-        </ImgContainer>
+          <button className="btn sb-secondary-cta-button">Know More</button>
+
+        </KnowMore>
       </SectionLight>
 
       <SectionDark>
-        <ImgContainer to="/calculator/emi">
+        <KnowMore to="/calculator/emi">
           <img src="/assets/home.png" alt="home" />
-        </ImgContainer>
+          <button className="btn sb-secondary-cta-button">Know More</button>
+
+        </KnowMore>
         <div>
           <h1>Personal Loans</h1>
           <p>

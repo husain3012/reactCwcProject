@@ -37,9 +37,8 @@ const MobileCardAccordion = (props) => {
           <div className="offering-donut-chart-container px-16 pt-30">
             <div className="d-flex flex-row align-items-center">
               <div className="d-flex">
-                <svg className="img-fluid donut-container">
-                  <use xlinkHref={props.svg}></use>
-                </svg>
+              <img src={props.img} alt="svg" className="img-fluid donut-container" />
+
               </div>
             </div>
           </div>
@@ -59,9 +58,9 @@ const MobileCards = () => {
     <div className="row d-flex d-md-none wealth-offering-mobile">
       <div className="col-12">
         <div className="accordion" id="wealth-offering-faq-accordion" itemProp="mainEntity" itemScope="" itemType="https://schema.org/Question">
-          <MobileCardAccordion heading="Mutual Funds" subheading="Inflation-beating growth with equity funds" link="/solutions/solution1" />
-          <MobileCardAccordion heading="Loan" subheading="hoicpaoc ao ihdi k jlka po a" link="/solutions/solution2" />
-          <MobileCardAccordion heading="Insurance" subheading="hoicpaoc ao ihdi k jlka po a" link="/solutions/solution3" />
+          <MobileCardAccordion img="/assets/invest.svg" heading="Mutual Funds" subheading="Inflation-beating growth with equity funds" link="/solutions/solution1" />
+          <MobileCardAccordion img="/assets/wallet.svg" heading="Loan" subheading="Facing trouble in your daily life due to a shortage of money?" link="/solutions/solution2" />
+          <MobileCardAccordion img="/assets/health.svg" heading="Insurance" subheading="Insurance is a well-advised way to transfer many risks to an insurance company." link="/solutions/solution3" />
         </div>
       </div>
     </div>
@@ -79,7 +78,7 @@ const SolutionSection = () => {
             <p className="wealth-section-description">Go after all that matters to you.</p>
           </div>
         </div>
-        <div className="row d-none d-md-flex service-offering-cards-container">
+        <div   className="row d-none d-md-flex justify-content-evenly service-offering-cards-container">
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 align-self-stretch my-10">
             <Link
               className="w-100 h-100 card brand-offering-card mt-3 learn-more-link sb-blue-link trigger-event"
@@ -111,7 +110,7 @@ const SolutionSection = () => {
               <div className="card-footer p-0">
                 <div className="offering-donut-chart-container pb-50">
                   <div className="d-flex flex-row align-items-center justify-content-center">
-                    <img src="/assets/piechart1.svg" alt="svg" className="img-fluid donut-container" />
+                    <img src="/assets/invest.svg" alt="svg" className="img-fluid donut-container" />
                   </div>
                 </div>
               </div>
@@ -140,17 +139,15 @@ const SolutionSection = () => {
                     </div>
                     <div className="d-flex flex-column px-16">
                       <p className="offering-title">Loan</p>
-                      <p className="offering-description text-black m-0">Plan and invest for hassle-free sunset years</p>
+                      <p className="offering-description text-black m-0">Facing trouble in your daily life due to a shortage of money?</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="card-footer p-0">
                 <div className="offering-donut-chart-container pb-50">
-                  <div className="d-flex flex-row align-items-center justify-content-center">
-                    <svg className="img-fluid donut-container">
-                      <use xlinkHref="https://scripbox.com/assets/svg-sprite/offering-donut-svg.svg#retire-confident"></use>
-                    </svg>
+                <div className="d-flex flex-row align-items-center justify-content-center">
+                    <img src="/assets/wallet.svg" alt="svg" className="img-fluid donut-container" />
                   </div>
                 </div>
               </div>
@@ -180,7 +177,7 @@ const SolutionSection = () => {
                     </div>
                     <div className="d-flex flex-column px-16">
                       <p className="offering-title">Insurance</p>
-                      <p className="offering-description text-black m-0">Grow your "extra" cash with Liquid funds</p>
+                      <p className="offering-description text-black m-0">Insurance is a well-advised way to transfer many risks to an insurance company.</p>
                     </div>
                   </div>
                 </div>
@@ -188,9 +185,8 @@ const SolutionSection = () => {
               <div className="card-footer p-0">
                 <div className="offering-donut-chart-container pb-50">
                   <div className="d-flex flex-row align-items-center justify-content-center">
-                    <svg className="img-fluid donut-container">
-                      <use xlinkHref="https://scripbox.com/assets/svg-sprite/offering-donut-svg.svg#cash-management"></use>
-                    </svg>
+                  <img src="/assets/health.svg" alt="svg" className="img-fluid donut-container" />
+
                   </div>
                 </div>
               </div>
@@ -198,7 +194,7 @@ const SolutionSection = () => {
           </div>
         </div>
         <MobileCards />
-        <div className="row mt-48 d-none d-md-flex">
+        {/* <div className="row mt-48 d-none d-md-flex">
           <div className="col-12 text-center">
             <button
               className="align-items-center sb-secondary-cta-button btn large-btn more-investment-objectives-button unset-transform trigger-event"
@@ -210,7 +206,7 @@ const SolutionSection = () => {
               More investment objectives
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

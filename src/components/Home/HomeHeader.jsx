@@ -9,7 +9,7 @@ function HomeHeader() {
                 <h1 className="header-wealth-title">
                   LOREM IPSUM
                   <div className="highlighted-word-wrapper">
-                    <div className="static-text-box child spin-to-top">SUBHEADING 1</div>
+                    <div className="static-text-box child spin-to-top">SUBHEADING</div>
                   </div>
                 </h1>
                 <div className="header-wealth-description mb-24 header-wealth-description-text">
@@ -23,7 +23,9 @@ function HomeHeader() {
             </div>
           </div>
           <div className="col-12 col-md-6">
-            <div className="wealth-header-image desktop-wealth-header"></div>
+          <div className="wealth-header-image desktop-wealth-header">
+          <img src="/assets/main_logo.jpeg" className="wealth-header-image" />
+        </div>
           </div>
         </div>
       </div>

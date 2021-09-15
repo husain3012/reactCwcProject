@@ -12,7 +12,9 @@ function Home() {
   return (
     <div id="wealth-home">
       <div id="get-started">
-        <div className="wealth-header-image mobile-wealth-header"></div>
+        <div className="wealth-header-image mobile-wealth-header">
+          <img src="/assets/main_logo.jpeg" className="wealth-header-image" />
+        </div>
         <HomeHeader />
         {/* <ScienceSection /> */}
         <SolutionSection />
@@ -23,7 +25,6 @@ function Home() {
         <HomeBlogSection />
         <CtaSection />
         <FaqSection />
-
       </div>
     </div>
   );
