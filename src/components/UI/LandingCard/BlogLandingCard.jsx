@@ -5,9 +5,9 @@ const BlogCardContainer = styled.div`
   width: 100%;
   height: 40vh;
   background-image: url(${(props) => props.cover});
-  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.2);
   background-blend-mode: multiply;

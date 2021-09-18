@@ -18,11 +18,11 @@ const CardContainer = styled(Link)`
   margin-top: ${(props) => props.offset || "0px"};
 
   h1 {
-    color: #f7f6f2;
+    color: var(--orange);
   }
   p {
-    color: #2c394b;
-    color: #c8c6c6;
+  
+    color: #F7F6F2;
   }
 
   img {

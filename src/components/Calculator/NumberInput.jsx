@@ -27,10 +27,14 @@ const FloatingLabelResp = styled(FloatingLabel)`
 `;
 
 const NumberInput = (props) => {
+  const handleChange = (event) => {
+    props.setValueHandler(event.target.value);
+  };
+
   return (
     <>
       <FloatingLabelResp label={props.label}>
-        <NumericInput  onChange={props.handleInput} value={props.value} placeholder={props.label} type="number" />
+        <NumericInput onChange={handleChange} value={props.value} placeholder={props.label} type="number" />
       </FloatingLabelResp>
     </>
   );

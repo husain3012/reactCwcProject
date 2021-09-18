@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import styled from "styled-components";
 
 export const FieldContainer = styled.div`
@@ -13,7 +12,7 @@ export const FieldContainer = styled.div`
   h3 {
     color: #11052c;
     font-size: 1.3rem;
-    width: 50%;
+    width: fit-content;
   }
   @media (max-width: 768px) {
     flex-direction: column;

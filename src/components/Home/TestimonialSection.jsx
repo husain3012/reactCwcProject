@@ -21,7 +21,7 @@ const TestimonialSection = () => {
                     <div className="col-12 col-md-6 col-lg-8 d-flex align-items-center">
                       <div className="position-relative">
                         <p className="wealth-customer-testimonial pr-30">
-                          iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ips
+                        We are extremely happy with the services rendered by Awesmart Team. You folks at Awesmart are really Smart when it comes to finance. We handed over our investments to you and you handled them with utmost caution. We are happy that we and our funds are in safe hands.
                         </p>
                       </div>
                     </div>
@@ -32,7 +32,7 @@ const TestimonialSection = () => {
                         type="button"
                       >
                         <div className= "testimonial-carousel-image-wrapper">
-                        <img className="testimonial-carousel-image img-fluid" alt=" brandname customer Chitra Iyengar" src="/assets/testimonial1.jpg" />
+                        <img className="testimonial-carousel-image img-fluid" alt="Customer" src="https://www.awesmart.com/assets/testimonials/vasant_sundaram.jpg" />
                         </div>
                       </div>
                     </div>
@@ -43,7 +43,7 @@ const TestimonialSection = () => {
                     <div className="col-12 col-md-6 col-lg-8 d-flex align-items-center">
                       <div className="position-relative">
                       
-                        <p className="wealth-customer-testimonial pr-30">laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. P</p>
+                        <p className="wealth-customer-testimonial pr-30"> I am one of the first few investors through the company. Over a period of two years, I have invested substantial assets through Awesmart. My confidence in the company strengthened as a result of deft handling of my assets. It is my pleasure and privilege to wish them all the best for a bright future.</p>
                       </div>
                     </div>
                     <div className="col-12 col-md-6 col-lg-4 text-center text-md-left">
@@ -52,7 +52,7 @@ const TestimonialSection = () => {
                         type="button"
                       >
                         <div className= "testimonial-carousel-image-wrapper">
-                        <img className="testimonial-carousel-image img-fluid" alt=" brandname customer Chitra Iyengar" src="/assets/testimonial2.jpg" />
+                        <img className="testimonial-carousel-image img-fluid" alt=" brandname customer Chitra Iyengar" src="https://www.awesmart.com/assets/testimonials/kj_vari.jpg" />
                         </div>
                       </div>
                     </div>
@@ -63,7 +63,7 @@ const TestimonialSection = () => {
                     <div className="col-12 col-md-6 col-lg-8 d-flex align-items-center">
                       <div className="position-relative">
                      
-                        <p className="wealth-customer-testimonial pr-30"> a, fringilla eget, varius at, diam. In in diam nec sapien mattis interdum. Nunc augue nibh, congue in, placerat vel, adipiscing in, dui. Mauris b</p>
+                        <p className="wealth-customer-testimonial pr-30">Working with Awesmart was effortless and as comfortable as working with a member of your extended family. They promised what they could deliver and delivered what they assured. A very professional and courteous team. Look forward to a long term association with them.</p>
                       </div>
                     </div>
                     <div className="col-12 col-md-6 col-lg-4 text-center text-md-left">
@@ -72,7 +72,7 @@ const TestimonialSection = () => {
                         type="button"
                       >
                       <div className= "testimonial-carousel-image-wrapper">
-                        <img className="testimonial-carousel-image img-fluid" alt=" brandname customer Chitra Iyengar" src="/assets/testimonial3.jpg" />
+                        <img className="testimonial-carousel-image img-fluid" alt="customer" src="https://www.awesmart.com/assets/testimonials/aditya_sagar.jpg" />
                         </div>
                       </div>
                     </div>

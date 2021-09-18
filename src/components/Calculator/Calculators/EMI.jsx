@@ -1,34 +1,15 @@
 import React, { useState } from "react";
-import styled from "styled-components";
-import { CalculateButton, FieldContainer } from "./InputFieldCalc";
-import NumberInput from "./NumberInput";
-import SliderInput from "./SliderInput";
-import ButtonInputContainer from "./ButtonInput";
+import { CalculateButton, FieldContainer } from "../InputFieldCalc";
+import NumberInput from "../NumberInput";
+import SliderInput from "../SliderInput";
+import ButtonInputContainer from "../ButtonInput";
+import CalculatorContainer from "../CalculatorContainer";
 
-const CalculatorContainer = styled.div`
-  border: 1px solid #e6e6e6;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  background-color: #f5f5f5;
-  padding: 10px;
-  margin: 0 auto;
-  width: fit-content;
-`;
 
-const EmiCalculator = (props) => {
+const EMI = (props) => {
   const [loanAmount, setLoanAmount] = useState();
   const [interestRate, setInterestRate] = useState();
   const [years, setYears] = useState();
-
-  const setYearsHandler = (e) => {
-    console.log(parseInt(e.target.value));
-    setYears(parseInt(e.target.value));
-  };
-  const loanAmountHandler = (e) => {
-    console.log(parseInt(e.target.value));
-    setLoanAmount(parseInt(e.target.value));
-  };
 
   const loanAmountOptions = [
     {
@@ -52,11 +33,11 @@ const EmiCalculator = (props) => {
     <CalculatorContainer>
       <FieldContainer>
         <h3>No. of Years</h3>
-        <NumberInput label="No Of Years" handleInput={setYearsHandler} value={years} />
+        <NumberInput label="No Of Years" setValueHandler={setYears} value={years} />
       </FieldContainer>
       <FieldContainer>
         <h3>Loan Amount</h3>
-        <NumberInput label="Loan Amount" handleInput={loanAmountHandler} value={loanAmount} />
+        <NumberInput label="Loan Amount" setValueHandler={setLoanAmount} value={loanAmount} />
       </FieldContainer>
       <FieldContainer>
         <ButtonInputContainer
@@ -79,4 +60,4 @@ const EmiCalculator = (props) => {
   );
 };
 
-export default EmiCalculator;
+export default EMI;

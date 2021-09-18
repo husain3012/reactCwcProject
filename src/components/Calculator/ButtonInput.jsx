@@ -26,7 +26,7 @@ const ButtonInput = (props) => {
 
 
   return (
-    <Button active={props.value === props.getValue()} onClick={() => props.setValue(parseInt(props.value))} className="btn ">
+    <Button active={parseInt(props.value )=== parseInt(props.getValue())} onClick={() => props.setValue(parseInt(props.value))} className="btn ">
       {props.text}
     </Button>
   );

@@ -77,13 +77,13 @@ const Loans = () => {
           </p>
         </div>
         <KnowMore to="/calculator/emi">
-          <img src="/assets/home.png" alt="home" />
+          <img src="/assets/calculator.png" alt="home" />
           <button className="btn sb-secondary-cta-button">Know More</button>
         </KnowMore>
       </SectionLight>
       <SectionDark>
         <KnowMore to="/calculator/emi">
-          <img src="/assets/home.png" alt="home" />
+          <img src="/assets/calculator.png" alt="home" />
           <button className="btn sb-secondary-cta-button">Know More</button>
 
         </KnowMore>
@@ -112,7 +112,7 @@ const Loans = () => {
           </p>
         </div>
         <KnowMore to="/calculator/emi">
-          <img src="/assets/home.png" alt="home" />
+          <img src="/assets/calculator.png" alt="home" />
           <button className="btn sb-secondary-cta-button">Know More</button>
 
         </KnowMore>
@@ -120,7 +120,7 @@ const Loans = () => {
 
       <SectionDark>
         <KnowMore to="/calculator/emi">
-          <img src="/assets/home.png" alt="home" />
+          <img src="/assets/calculator.png" alt="home" />
           <button className="btn sb-secondary-cta-button">Know More</button>
 
         </KnowMore>

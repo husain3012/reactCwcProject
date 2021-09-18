@@ -11,9 +11,10 @@ import * as Solutions from "./Solutions/Solution";
 import GoToTop from "./GoToTop";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import Blog from "../pages/Blog";
-import {EMI} from "../pages/Calculators";
+import * as Calculators from "../pages/Calculators";
 import Loans from "../pages/Loans";
 import Insurance from "../pages/Insurance";
+import MutualFunds from "../pages/MutualFunds";
 // Colors:
 // Purple: #5C05C4
 // Athens gray: #E6E3ED
@@ -29,14 +30,18 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/signup" component={Login} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/calculator/emi" component={EMI} />
-          <Route exact path="/calculator/retirement" component={EMI} />
-          <Route exact path="/calculator/emergency" component={EMI} />
-          <Route exact path="/calculator/wedding" component={EMI} />
+
+          <Route exact path="/calculator/aspire_big" component={Calculators.AspireBig} />
+          <Route exact path="/calculator/education" component={Calculators.Education} />
+          <Route exact path="/calculator/emergency" component={Calculators.Emergency} />
+          <Route exact path="/calculator/emi" component={Calculators.EMI} />
+          <Route exact path="/calculator/get_wealthy" component={Calculators.GetWealthy} />
+          <Route exact path="/calculator/retirement" component={Calculators.Retirement} />
+          <Route exact path="/calculator/wedding" component={Calculators.Wedding} />
 
           <Route exact path="/contact_us" component={Contact} />
           <Route exact path="/privacy_policy" component={PrivacyPolicy} />
-          <Route exact path="/solutions/solution1" component={Solutions.Solution1} />
+          <Route exact path="/solutions/solution1" component={MutualFunds} />
           <Route exact path="/solutions/solution2" component={Loans} />
           <Route exact path="/solutions/solution3" component={Insurance} />
           <Route exact path="/blogs/:id" component={Blog} />

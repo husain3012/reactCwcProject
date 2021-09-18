@@ -1,29 +1,21 @@
 import React, { useState } from "react";
-import styled from "styled-components";
-import { CalculateButton, FieldContainer } from "./InputFieldCalc";
-import NumberInput from "./NumberInput";
-import SliderInput from "./SliderInput";
-import ButtonInputContainer from "./ButtonInput";
+import { CalculateButton, FieldContainer } from "../InputFieldCalc";
+import NumberInput from "../NumberInput";
+import SliderInput from "../SliderInput";
+import ButtonInputContainer from "../ButtonInput";
+import CalculatorContainer from "../CalculatorContainer";
 
-const CalculatorContainer = styled.div`
-  border: 1px solid #e6e6e6;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  background-color: #f5f5f5;
-  padding: 10px;
-  margin: 0 auto;
-  width: fit-content;
-`;
 
-const EmiCalculator = (props) => {
+const Retirement = (props) => {
+  const [currentAge, setCurrentAge] = useState('');
   const [monthlyExpense, setMonthlyExpense] = useState();
   const [ageRange, setAgeRange] = useState([70, 80]);
   const [inflationRate, setInflationRate] = useState();
   const [annualReturn, setAnnualReturn] = useState();
+  const [savings, setSavings] = useState('');
   const [roi, setRoi] = useState();
 
-  const monthlyExpansesHandeler = (e) => {
+  const monthlyExpansesHandler = (e) => {
     console.log(parseInt(e.target.value));
     setMonthlyExpense(parseInt(e.target.value));
   };
@@ -50,41 +42,41 @@ const EmiCalculator = (props) => {
     <CalculatorContainer>
       <FieldContainer>
         <h3>Current Age: </h3>
-        <NumberInput label="Current Age" />
+        <NumberInput setValueHandler={setCurrentAge}  value={currentAge} label="Current Age" />
       </FieldContainer>
       <FieldContainer>
         <h3>Plane for Age ({ageRange[0] + "-" + ageRange[1]})</h3>
-        <SliderInput value={ageRange} setValueHandeler={setAgeRange} min={60} max={100} />
+        <SliderInput value={ageRange} setValueHandler={setAgeRange} min={60} max={100} />
       </FieldContainer>
       <FieldContainer>
         <h3>Monthly Expenses</h3>
-        <NumberInput label="Monthly Expenses" handleInput={monthlyExpansesHandeler} value={monthlyExpense} />
+        <NumberInput label="Monthly Expenses" setValueHandler={setMonthlyExpense} value={monthlyExpense} />
       </FieldContainer>
       <FieldContainer>
         <ButtonInputContainer
           getValue={() => {
             return monthlyExpense;
           }}
-          setValueHandeler={setMonthlyExpense}
+          setValueHandler={setMonthlyExpense}
           values={monthlyExpensesOptions}
         />
       </FieldContainer>
 
       <FieldContainer>
         <h3>Inflation Rate ({inflationRate}%)</h3>
-        <SliderInput setValueHandeler={setInflationRate} step={0.001} min={0} max={10} />
+        <SliderInput setValueHandler={setInflationRate} step={0.001} min={0} max={10} />
       </FieldContainer>
       <FieldContainer>
         <h3>Annual Rate of Return ({annualReturn}%)</h3>
-        <SliderInput setValueHandeler={setAnnualReturn} step={0.001} min={0} max={10} />
+        <SliderInput setValueHandler={setAnnualReturn} step={0.001} min={0} max={10} />
       </FieldContainer>
       <FieldContainer>
         <h3>Retirement Savings till Date</h3>
-        <NumberInput label="Retirement Savings" />
+        <NumberInput setValueHandler={setSavings}  value={savings} label="Retirement Savings" />
       </FieldContainer>
       <FieldContainer>
         <h3>Return on Investments ({roi}%):</h3>
-        <SliderInput setValueHandeler={setRoi} step={0.001} min={0} max={10} />
+        <SliderInput setValueHandler={setRoi} step={0.001} min={0} max={10} />
       </FieldContainer>
       <FieldContainer>
         <CalculateButton>Calculate</CalculateButton>
@@ -93,4 +85,4 @@ const EmiCalculator = (props) => {
   );
 };
 
-export default EmiCalculator;
+export default Retirement;
